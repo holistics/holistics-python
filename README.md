@@ -2,7 +2,13 @@ Holistics Python API - Export data from QueryReport
 =========================
 This API is made to help user export data from Holistics and save as DataFrame object or .CSV file
 
-
+How to use:
+```
+    import holistics_python_api
+    
+    api = holistics_api()
+    result = api.export_data('34hpF2d2cQwu7jdQlzpKuMUGVb+ZkDwhW1kZvX9gsgw=', '12345')
+```
 
 
 Required libraries
@@ -34,8 +40,8 @@ Documentation
 **api_python (key, report_id, filter_dict, path, _page_size, _page)**
 
 - **key:** api-key of Holistics, need permission to be generated. Get key at Settings -> My Account
-report_id: id of report. Collect from URL. 
-Ex: https://secure.holistics.io/queries/12345-processing-report
+- **report_id:** id of report. Collect from URL. 
+    Ex: https://secure.holistics.io/queries/12345-processing-report
 - **filter_dict (optional):** dictionary of filters that would be applied to report
 - **path (optional):**
   - Set path if want to store .csv file (direction + filename)
