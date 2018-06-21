@@ -3,7 +3,7 @@ import io
 import pandas as pd
 
 class holistics_api:        
-    def export_api(self, key, report_id, filter_dict=dict(), path=None, _page_size=10000000, _page=10000000):  
+    def export_data(self, key, report_id, filter_dict=dict(), path=None, _page_size=10000000, _page=10000000):  
         headers = {
             "Accept":"application/json", 
             "Content-Type":"application/json",
