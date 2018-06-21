@@ -1,6 +1,6 @@
 Holistics Python API - Export data from QueryReport
 =========================
-This API is made to help user export data from Holistics and save as DataFrame object or .CSV file
+This API is made to help user export data from QueryReport of Holistics.io, save as DataFrame object or .CSV file
 
 How to use:
 ```
@@ -11,17 +11,17 @@ How to use:
 ```
 
 
-Required libraries
+Requirements
 ---------------
-- requests: 
+- Python version 3
+- Libraries:
+  - requests: 
+  - pandas: 
 ```
     $ pip install requests
-```
-
-- pandas: 
-```
     $ pip install pandas
 ```
+
 
 Installing
 ---------------
