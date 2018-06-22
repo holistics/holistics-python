@@ -12,7 +12,7 @@ How to use:
 
 Requirements
 ---------------
-- Python version 3
+- Python 2 or 3
 - Libraries:
   - requests
   - pandas
