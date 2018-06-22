@@ -5,20 +5,21 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="holistics_python_api",
-    version="0.0.3",
+    version="0.0.7b",
     author="Phat Vo",
     author_email="phat.vo@holistics.io",
     description="Package to export report's data from Holistics.io",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/holistics/holistics-python",
-    packages=setuptools.find_packages(),
+    packages=['holistics_python_api'],
     classifiers=(
 		'Programming Language :: Python :: 3',
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
 	install_requires=[
-        "requests", "pandas"
-    ]
+        "requests", "pandas",
+    ],
+    python_requires='>=3, <4',
 )

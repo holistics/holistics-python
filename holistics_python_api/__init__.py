@@ -1,1 +1,1 @@
-name = "holistics_python_api"
+from .holistics_python_api import holistics_api
