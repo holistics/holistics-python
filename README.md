@@ -4,23 +4,10 @@ This API is made to help user export data from QueryReport of Holistics.io, save
 
 How to use:
 ```
-    import holistics_python_api as api
-    result = api.holistics_api()
+    import holistics_python_api as holistics
+    result = holistics.holistics_api()
     result.export_data('Uf612357kV147DmkrccsaHa4EMLU2xhD17vdJDF13jM=','33523634')
 ```
-
-
-Requirements
----------------
-- Python 2 or 3
-- Libraries:
-  - requests
-  - pandas
-```
-    $ pip install requests
-    $ pip install pandas
-```
-
 
 Installing
 ---------------
