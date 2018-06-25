@@ -5,10 +5,10 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="holistics_python",
-    version="0.1.4",
+    version="0.1.5",
     author="Phat Vo",
     author_email="phat.vo@holistics.io",
-    description="Package to export report's data from Holistics.io",
+    description="Package to export report's data from holistics.io",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/holistics/holistics-python",

@@ -5,14 +5,16 @@ import json
 import pandas as pd
 import time
 
-class api:        
-    def export_data(self, key, report_id, filter_dict=dict(), path=None, _page_size=10000000, _page=10000000):  
-        headers = {
+class api:
+    def __init__(self, api_key):
+        self.headers = {
             "Accept":"application/json", 
             "Content-Type":"application/json",
-            "X-Holistics-Key": key}
+            "X-Holistics-Key": api_key}
+    
+    def export_data(self, report_id, filter_dict=dict(), path=None, _page_size=10000000, _page=10000000): 
         print ("Executing report...")
-        r = requests.get('https://secure.holistics.io/queries/'+report_id+'/submit_export.csv', params = filter_dict, headers = headers)
+        r = requests.get('https://secure.holistics.io/queries/'+report_id+'/submit_export.csv', params = filter_dict, headers = self.headers)
         if r.status_code != 200:
             return "Error " + str(r.status_code)
         print ("Success")
@@ -22,17 +24,17 @@ class api:
             '_page_size': _page_size,
             '_page': _page}
         print ("Getting export results...")
-        r = requests.get('https://secure.holistics.io/queries/get_export_results.json', params = page,headers = headers)
+        r = requests.get('https://secure.holistics.io/queries/get_export_results.json', params = page,headers = self.headers)
         if r.status_code != 200:
             return "Error " + str(r.status_code)
         print ("Success")
         res = r.json()
         while (res['status'] != 'success'):
-            r = requests.get('https://secure.holistics.io/queries/get_export_results.json', params = page,headers = headers)
+            r = requests.get('https://secure.holistics.io/queries/get_export_results.json', params = page,headers = self.headers)
             res = r.json()
             time.sleep(1)
         print ("Downloading export results...")
-        r = requests.get('https://secure.holistics.io/exports/download?job_id=' + job_id,headers = headers)
+        r = requests.get('https://secure.holistics.io/exports/download?job_id=' + job_id,headers = self.headers)
         if r.status_code != 200:
             return "Error " + str(r.status_code)
         text = str(r.content, 'utf-8', errors='replace')    
