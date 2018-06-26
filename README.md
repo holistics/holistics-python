@@ -1,11 +1,17 @@
-Holistics Python API 
+Holistics module: export data more easier
 =========================
 This Module is made to help python user export data from QueryReport of Holistics.io, save as DataFrame object or .CSV file
 
-A simple way to use Holistics API with API_key, path to store file and report's id:
+A simple way to use Holistics API
+
 ```
 from holistics import HolisticsAPI
-result = HolisticsAPI('Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=',path='output.csv')
+
+api_key = 'Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM='
+path = 'C:/output.csv'
+report_id = '3123574'
+
+result = HolisticsAPI('Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=',path='C:/output.csv')
 result.ExportData('3123574')
     
 #Each user's account has one unique API key. 
@@ -18,7 +24,7 @@ Requirement
 
 Installation
 ---------------
-holistics_python can be installed with pip:
+Module can be installed with pip:
 ```
 $ pip install holistics
 ```
