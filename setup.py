@@ -5,14 +5,14 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="holistics",
-    version="0.0a6",
+    version="0.0a7",
     author="Phat Vo",
     author_email="phat.vo@holistics.io",
     description="Package to export report's data from holistics.io",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/holistics/holistics-python",
-    packages=['holistics'],
+    packages=['holistics','tests'],
     classifiers=(
 		'Programming Language :: Python :: 3',		
         "License :: OSI Approved :: MIT License",

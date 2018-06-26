@@ -4,7 +4,7 @@ from pytest import fixture
 import vcr
 
 my_vcr = vcr.VCR(
-record_mode='new_episodes',
+record_mode='once',
 )
 api_key_correct = 'Uf6a7qsFkV147Dmkrcqq+msHa4EMLU2xhD17JDF13jM='
 api_key_wrong = '123556`41'
