@@ -6,13 +6,8 @@ A simple way to use Holistics API
 
 ```
 from holistics import HolisticsAPI
-
-api_key = 'Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM='
-path = 'C:/output.csv'
-report_id = '3123574'
-
-result = HolisticsAPI('Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=',path='C:/output.csv')
-result.ExportData('3123574')
+result = HolisticsAPI(api_key='Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=', path='C:/output.csv')
+result.ExportData(report_id='3123574')
     
 #Each user's account has one unique API key. 
 #API key is generated at Setting -> My Account, require permission of administators.
