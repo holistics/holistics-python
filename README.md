@@ -6,6 +6,7 @@ A simple way to use Holistics API
 
 ```
 from holistics import HolisticsAPI
+
 result = HolisticsAPI(api_key='Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=', path='C:/output.csv')
 result.ExportData(report_id='3123574')
     
