@@ -6,7 +6,8 @@ import vcr
 my_vcr = vcr.VCR(
 record_mode='once',
 )
-api_key_correct = 'Uf6a7qsFkV147Dmkrcqq+msHa4EMLU2xhD17JDF13jM='
+
+api_key_correct = '+msHa4EMLU2xhD17JDF13jM='
 api_key_wrong = '123556`41'
 path = 'output'
 url = 'secure.holistics.io'
@@ -27,14 +28,14 @@ def test_holistics_info():
 	assert response['url'] == url, "The url should be in the response"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_GetURL_correct(): #correct, exist url
+def test_GetURL_correct():
 	tail_url = '/queries/'+str(report_id_correct)+'/submit_export.csv'
 	holistics_instance = HolisticsAPI(api_key_correct)
 	response = holistics_instance.GetURL(tail_url)
 	assert response.status_code == 200, "Status code should be 200"
 
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_GetURL_wrong(): #wrong, non-exist url (wrong report_id)
+@my_vcr.use_cassette('tests/vcr_cassettes/holistics_wrong.yml')
+def test_GetURL_wrong():
 	tail_url = '/queries/'+str(report_id_wrong)+'/submit_export.csv'
 	holistics_instance = HolisticsAPI(api_key_wrong)
 	response = holistics_instance.GetURL(tail_url, filters)
