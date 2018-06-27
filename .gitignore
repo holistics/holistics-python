@@ -1,0 +1,8 @@
+*.pyc
+.pytest_cache/
+build/
+dist/
+holistics.egg-info/
+holistics/__pycache__/
+output
+output.csv
