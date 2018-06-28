@@ -28,26 +28,20 @@ class HolisticsAPI:
         return {'api_key': self.headers['X-Holistics-Key'], 'path': self.path, 'url': self.url, }
 
     def GetURL(self, tail_url, params=None):
-        try:
-            res = requests.get(self.url + tail_url, params = params, headers = self.headers)
-            res.raise_for_status()
-        except requests.exceptions.HTTPError as err:
-            print (err)
-            return 0
+        res = requests.get(self.url + tail_url, params = params, headers = self.headers)
+        res.raise_for_status()
         return res
-        
 
     def SubmitReport (self, report_id, filters=None):
         print ("Submitting export request... ", end='')
         tail_url = '/queries/'+str(report_id)+'/submit_export.csv'
-        res = self.GetURL(tail_url, filters)
-        if res!=0:
+        try:
+            res = self.GetURL(tail_url, filters)
             res = res.json()
             print ("Success")
-            self.page['job_id'] = str(res['job_id'])
-            return 1
-        else:
-            return 0
+            return str(res['job_id'])
+        except requests.exceptions.HTTPError as err:
+            return err
 
     def GetExportResults(self, job_id, _page_size = None, _page = None):
         print ("Getting export results... ", end='')
@@ -57,13 +51,12 @@ class HolisticsAPI:
             self.page['_page_size']=_page_size
         if _page is not None:
             self.page['_page']=_page
-        res = self.GetURL(tail_url, self.page)
-        if res!=0:
+        try:
+            res = self.GetURL(tail_url, self.page)
             res = res.json()
             while (res['status'] != 'success'):
                 if res['status'] == 'already_existed':
                     self.page['job_id'] = str(res['job_id'])
-                    break
                 if res['status'] == 'failure':
                     print ("Status: Failure")
                     return 0
@@ -71,14 +64,14 @@ class HolisticsAPI:
                 time.sleep(1)
             print ("Success")
             return 1
-        else:
-            return 0
+        except requests.exceptions.HTTPError as err:
+            return err
         
     def DownloadResults(self):
         print ("Downloading results... ", end='')
         tail_url = '/exports/download?job_id=' + self.page['job_id']
-        res = self.GetURL(tail_url)
-        if res!=0:
+        try:
+            res = self.GetURL(tail_url)
             text = str(res.content, 'utf-8', errors='replace')
             data = pd.read_csv(io.StringIO(text))
             self.data = True
@@ -89,11 +82,25 @@ class HolisticsAPI:
                 try:
                     data.to_csv(self.path, encoding='utf-8', index=False)
                     print ("Export to file successed!")
+                    return 1
                 except:
                     print ("Can't export file to " + self.path)
+        except requests.exceptions.HTTPError as err:
+            return err
         
 
     def ExportData(self,report_id,filters=None, page_size=None, page=None):
-        self.SubmitReport(report_id, filters)
-        self.GetExportResults(self.page['job_id'],page_size,page)
-        return self.DownloadResults()
+        res = self.SubmitReport(report_id, filters)
+        if type(res) == requests.exceptions.HTTPError:
+            print ("Fail to submit report")
+            return 0
+        res = self.GetExportResults(res,page_size,page)
+        if res != 1:
+            print ("Fail to get export results")
+            return 0
+        res = self.DownloadResults()
+        if type(res) == requests.exceptions.HTTPError:
+            print ("Fail to download Results")
+            return 0
+        else:
+            return res
