@@ -11,9 +11,9 @@ api_key_correct = '+msHa4EMLU2xhD17JDF13jM='
 api_key_wrong = '123556`41'
 path = 'output'
 url = 'secure.holistics.io'
-report_id_correct = '34412'
+report_id_correct = '338741'
 report_id_wrong = 'aehnaga'
-job_id_correct = '19763907'
+job_id_correct = '198884121'
 job_id_wrong = 'eargaerg'
 path_correct = 'output.csv'
 path_wrong = 'C:/&^(@#,ga.tacv'
@@ -68,14 +68,14 @@ def test_GetExportResults_wrong():
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_DownloadResults_correct():
 	holistics_instance = HolisticsAPI(api_key_correct,path)
-	holistics_instance.page['job_id'] = '19763834'
+	holistics_instance.page['job_id'] = job_id_correct
 	response = holistics_instance.DownloadResults()
 	assert holistics_instance.data == True, "Response must be 1 or DataFrame object"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_DownloadResults_wrong():
 	holistics_instance = HolisticsAPI(api_key_correct,path=path_wrong)
-	holistics_instance.page['job_id'] = 'iaujhlfawef'
+	holistics_instance.page['job_id'] = job_id_wrong
 	response = holistics_instance.DownloadResults()
 	assert response is None or response == 0, "Response must be 0"
 

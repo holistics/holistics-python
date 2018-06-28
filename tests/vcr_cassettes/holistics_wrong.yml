@@ -9,26 +9,26 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [123556`41]
     method: GET
-    uri: https://secure.holistics.io//queries/aehnaga/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/aehnaga/submit_export.csv?twqdest=teqwdst
   response:
     body: {string: 'Holistics::InvalidAuthenticationToken'}
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fd84eb7932fb-HKG]
+      CF-RAY: [431e92d6cb2aa31a-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:35 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:23 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=da086c3239fadde5d11398c540d87c9a01530071854; expires=Thu,
-          27-Jun-19 03:57:34 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d0b86172b0e0d461ab32002bbf6b7f7181530172342; expires=Fri,
+          28-Jun-19 07:52:22 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [422 Unprocessable Entity]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [b15b257d-feaa-4024-8f86-f7e96b66df73]
-      X-Runtime: ['0.038989']
+      X-Request-Id: [0298072d-614e-413f-891d-2f1056237796]
+      X-Runtime: ['0.036818']
       X-XSS-Protection: [1; mode=block]
     status: {code: 422, message: Unprocessable Entity}
 version: 1

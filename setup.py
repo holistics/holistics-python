@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="holistics",
-    version="0.0a7",
+    version="0.0a8",
     author="Phat Vo",
     author_email="phat.vo@holistics.io",
     description="Package to export report's data from holistics.io",

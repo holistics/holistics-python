@@ -7,34 +7,34 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/34412/submit_export.csv
+    uri: https://secure.holistics.io/queries/338741/submit_export.csv
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0MDSyNLKoBQCk9G+UJgAA
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0sLC0MLesBQCyANxjJgAA
         AA==
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fd7fd85da33e-HKG]
+      CF-RAY: [431e92d26aa3a368-HKG]
       Cache-Control: ['public, max-age=7200']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:34 GMT']
-      ETag: [W/"7c72ccae8077b8bf66efc030ddcea08a"]
+      Date: ['Thu, 28 Jun 2018 07:52:22 GMT']
+      ETag: [W/"465b414db1d4f3254016b08ddd40e0d2"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Expires: ['Wed, 27 Jun 2018 05:57:34 GMT']
+      Expires: ['Thu, 28 Jun 2018 09:52:22 GMT']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d38d951f4362abc9de965db8cf8b614c21530071854; expires=Thu,
-          27-Jun-19 03:57:34 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=de665698752e9d05774a0c2f7e115a9a71530172342; expires=Fri,
+          28-Jun-19 07:52:22 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [c7138142-06ea-4fe5-bf21-2d716b28a3ac]
-      X-Runtime: ['0.387701']
+      X-Request-Id: [695c702a-9470-4d26-83c0-2e3173de7ed9]
+      X-Runtime: ['0.169662']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -45,34 +45,33 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/34412/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/338741/submit_export.csv?twqdest=teqwdst
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0MDSyNLKsBQDlxXSNJgAA
-        AA==
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0sAAig1oAxvxCuSYAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fd879e8ea35c-HKG]
+      CF-RAY: [431e92d9d99da350-HKG]
       Cache-Control: ['public, max-age=7200']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:35 GMT']
-      ETag: [W/"1500de7bbc45f4b005742bab78f0e236"]
+      Date: ['Thu, 28 Jun 2018 07:52:23 GMT']
+      ETag: [W/"27d806e6ac77d1493e21b6772186a397"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Expires: ['Wed, 27 Jun 2018 05:57:35 GMT']
+      Expires: ['Thu, 28 Jun 2018 09:52:23 GMT']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=dc4b4006b760eb42d926906cc4aa1b80e1530071855; expires=Thu,
-          27-Jun-19 03:57:35 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=db32a33cfa9f6196ec71b165d46026e0d1530172343; expires=Fri,
+          28-Jun-19 07:52:23 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [5e2ab27a-0083-4f17-8e34-a40e59644d03]
-      X-Runtime: ['0.374445']
+      X-Request-Id: [e7f5a018-c90b-406c-9af1-98dfec536a92]
+      X-Runtime: ['0.161848']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -83,31 +82,31 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/aehnaga/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/aehnaga/submit_export.csv?twqdest=teqwdst
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAAwtKLc4vLUpOVcjLL1FIyy/NSwEAUBSJABIAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fd8ce90e8538-HKG]
+      CF-RAY: [431e92de4e9fa31a-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:36 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:24 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=daf8ca772b104273d4b3152174ea492f61530071856; expires=Thu,
-          27-Jun-19 03:57:36 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d4011360ee7f61c80e61a3066cb30f9d11530172344; expires=Fri,
+          28-Jun-19 07:52:24 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [f9650769-3683-477b-873c-ae6d61f57ac0]
-      X-Runtime: ['0.102741']
+      X-Request-Id: [23875fd2-4d74-4e78-b3bf-5fce51ec6850]
+      X-Runtime: ['0.099925']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 - request:
@@ -118,32 +117,34 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=19763907&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=198884121&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSKi5NTk4tLlbSUUqtKMgvKlGyyivNyakFAJuia8EiAAAA
+        H4sIAAAAAAAAAyWLUQrDIBAF77LfVVNNa/AysiwWA02V7Jo2Dbl7E/rzGJh5G7CgNIYA3IgSM1wg
+        fWqZBcIGWaTGipIPfzIHY3J5jiwjseJEbU7qn2t2Gif8lhe+WVOZjHOD7xUh5aTOi7LddYjdPdpj
+        fex9vNn1sZImXmDff2IDTFOLAAAA
     headers:
-      CF-RAY: [4314fd90ad773421-HKG]
+      CF-RAY: [431e92e11e1ca326-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:36 GMT']
-      ETag: [W/"32d235721e63551c028f4b82627111f6"]
+      Date: ['Thu, 28 Jun 2018 07:52:24 GMT']
+      ETag: [W/"b970b369708e93197375abf56e824ed1"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=dc8e08a703dfd67f9453110c88b7ec3d81530071856; expires=Thu,
-          27-Jun-19 03:57:36 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=Smo0MUUwaEZ3QnZmcEFsTGhlcGRsd0RHV3laREZORGl6SmRyTTArOXd3Y2E4M0F1MEgrbUhTb2sxcTlsdVBJQlBrcFBTU05GMllwY3RxZDUydHh6dVQzTXRPSGhRM2NoWHRQRWVzcHliVDY5YlQvVWpVZnAwQnpYeWNtYlUxUGItLWg0TkFrWVNsRjBwem9JeU01bi8yZWc9PQ%3D%3D--aa93dfbfae7cf90cca089117ec80a1877cbb3ec9;
+      Set-Cookie: ['__cfduid=d656e66b70afeec7c1851e9b7d21175e81530172344; expires=Fri,
+          28-Jun-19 07:52:24 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=RTNjN1RIOWVCWEJ0bWliSXZVaFpSMGN6d0lPMkh1NUY3Y3J2UW1aTitPZDl3QUJLTHBHWHF5ekJPcUFmRDdPd1BaWElETmdudjF6djQxMUFIM05aY2V3aHNySWZRcU10eUdOejVtNk9NUUhMM1hiZW9jc0hSSHVUQUxKQzBxQ3YtLWFrZjZpdnl5ak5yNUoxZzZKMmI2SVE9PQ%3D%3D--d3065613fbe38bd52d22bf5c26cb51c4b23318a3;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [89bfca52-05f0-45fd-9bfe-16a3686a8ff0]
-      X-Runtime: ['0.109694']
+      X-Request-Id: [26b4e2f1-be79-484f-9870-fc1a5644e099]
+      X-Runtime: ['0.105175']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -154,31 +155,31 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=eargaerg&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=eargaerg&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAA6tWSi0qyi8qVrKKVgpKLc4vLUpOVcjLL1FIyy/NS1GKrQUAf+es0yEAAAA=
     headers:
-      CF-RAY: [4314fd93f980a320-HKG]
+      CF-RAY: [431e92e4dc0a342d-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:37 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:25 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=db2795c0c73112d2a4d8e94f6193619da1530071857; expires=Thu,
-          27-Jun-19 03:57:37 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=ZVM5WE1KUDMwWmx0YkxQNXhkTVR4eVZRUGRiNFliMXQzNzVhcC9HUEFFaU1rNldFSmZ3LzJMM0FyY2VqVlc2SU9UNm80dGpBZnE5bXhJQVNERFlxSTlZbXNNcXl0SnFFVzdETFZVcHJJVTBuYUNwb25pUkZKa3YwTkhaZVpRU0ctLUNaR05zYUtPdm15VjR1clRRUklmNnc9PQ%3D%3D--807f620c83c937d6b74916f843df60571966e1d6;
+      Set-Cookie: ['__cfduid=da9952427e33859b1016c0e53c5c673371530172345; expires=Fri,
+          28-Jun-19 07:52:25 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=ZE9RWjhwQW9HdytsUXYvNHpzRkM1WnVEQUdJVEttWG9Eckw3d3hyZnVidHhQcU5tYjZienlmalAzSTlQbzBwZW9mY2NJU0tudndvbGIyU1FuTjJ3UURuckZjY1d4c0c3NklDUVd3Uk5odG00WFlPRmRhSUR0R2poY1VheVphWGstLW5RbFdyY0x2aXJ6K2V1NGRobndDVEE9PQ%3D%3D--a27d623aa52ce0ee1692e8ab918da3cf869cd183;
           path=/; HttpOnly]
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [a15f8fcd-2ca5-4f35-9617-38323daf9d6a]
-      X-Runtime: ['0.098309']
+      X-Request-Id: [7a1a1d1c-3925-4862-8b65-f0b696c570d6]
+      X-Runtime: ['0.101150']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 - request:
@@ -189,28 +190,28 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//exports/download?job_id=19763834
+    uri: https://secure.holistics.io/exports/download?job_id=198884121
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-2018_06_26_09_15_5pilsg.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180627T035738Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=783d2edaed8cfd9207c240f794d3e6eed6f7654c9a1ff68c9f497a3d6ee3ef1a">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180628T075225Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=730e66fd5dc2f6081e3a4509f3085db16563355f8cb554a86ea4e1032b72e547">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [4314fd96dcbb8538-HKG]
+      CF-RAY: [431e92e77bba32fb-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:38 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:25 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-2018_06_26_09_15_5pilsg.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035738Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=783d2edaed8cfd9207c240f794d3e6eed6f7654c9a1ff68c9f497a3d6ee3ef1a']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075225Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=730e66fd5dc2f6081e3a4509f3085db16563355f8cb554a86ea4e1032b72e547']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=ddceaf8c783f6dd7fe4278d98152593f01530071857; expires=Thu,
-          27-Jun-19 03:57:37 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=djdHNzlwSnZnZW5Tck5XSmxTMzVNYzVJd1Q3bmJBajhuRk1MZFNVNFZXUU1UblJwaUswa2xRUUVnZHN3Tml4bHVmbVF2V0xyNmFoL1Z4ZWhHMWw4OWw2RFQzcGtERFpLYmhzQ0kxczFmZndyckdCLy9aYkFqdjZKTFVabGFZeTQtLVYzRTgvZG1zZGVqYmNGOENXZzZLckE9PQ%3D%3D--35d5037dcf3889e7f1b4cba60b94358e8f25041a;
+      Set-Cookie: ['__cfduid=d2f19e8dc3f57c650fa88126d3ddd07c01530172345; expires=Fri,
+          28-Jun-19 07:52:25 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=OUdDNmJHRi9JemtNekdKbFZCU0cvM3VxMnNOZHpwRlEyL3F0YmFpVnhETk1PU1F3YUlIcXFNRERta3VDbU9Xd3VCSDhXREZCbGVRUklianROZUtLcUJtMGJISnRiUDJXN1pBc1BBNDhTV004WmdTZ0VOSEJzTncva0dZcWkzZzUtLVFyY2dpeEgvRkdjY09jajQrZ21yb1E9PQ%3D%3D--92a4cf57e40352b031604d36c396ca2c363fa20d;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [fa01ffa3-cbfb-41a2-a203-ddf2912197e6]
-      X-Runtime: ['0.262024']
+      X-Request-Id: [5b0f6172-6987-4fc6-84fd-50c9435d5a2a]
+      X-Runtime: ['0.235680']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -220,9 +221,9 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-2018_06_26_09_15_5pilsg.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035738Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=783d2edaed8cfd9207c240f794d3e6eed6f7654c9a1ff68c9f497a3d6ee3ef1a
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075225Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=730e66fd5dc2f6081e3a4509f3085db16563355f8cb554a86ea4e1032b72e547
   response:
     body: {string: "tenant_name,owner_name,report_title,repeat\nHolistics Demo,Demo
         Admin,Buyer Total Purchases,0 4 * * *\nHolistics Demo,Demo Admin,Conversion
@@ -444,14 +445,16 @@ interactions:
       Content-Disposition: [attachment]
       Content-Length: ['16677']
       Content-Type: [text/csv]
-      Date: ['Wed, 27 Jun 2018 03:57:39 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:27 GMT']
       ETag: ['"b717964388312f23c69e3c89d511ba0a"']
-      Last-Modified: ['Tue, 26 Jun 2018 09:16:00 GMT']
+      Last-Modified: ['Thu, 28 Jun 2018 07:47:40 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Thu, 28 Jun 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Sat, 30 Jun 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [60mnZeT309Q7bOOS+f906qINdJNYOPIEh0OCdrFAYFAV24KG7Mz+a/7ADNfo7bxjENQQz5wSJic=]
-      x-amz-request-id: [8E054DADAB7AD6FF]
+      x-amz-id-2: [E1+CdQAwnpYvXvvWJUoD5wQ9NhkYHUCpn/8nL4a06cN6Db8tYGIKCCjTDmVZ/4vWb0szj6H3Woo=]
+      x-amz-meta-cache_expired_at: ['2018-06-28T07:57:38+00:00']
+      x-amz-meta-cache_saved_at: ['2018-06-28T07:47:38+00:00']
+      x-amz-request-id: [19B617C47C758272]
     status: {code: 200, message: OK}
 - request:
     body: null
@@ -461,27 +464,27 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//exports/download?job_id=iaujhlfawef
+    uri: https://secure.holistics.io/exports/download?job_id=eargaerg
   response:
     body: {string: '{"errors":["Holistics::NotFound"]}'}
     headers:
-      CF-RAY: [4314fd9f7b293421-HKG]
+      CF-RAY: [431e92ee69ec32f5-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:39 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:26 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d1ee2b6772ae3305db58e93708a78b6b21530071859; expires=Thu,
-          27-Jun-19 03:57:39 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=SU1HaEkzK0RpVlA1U0UxWXcrQTdQdndWSGcwRlQrQWo3amt0TkFQTU9OZFBOSTkydTNqU3FUOUhFRXJNZDNGRHJ4NVB1QlpLVEdNeTZBYmRxQU9xSmx3Wk1VT2w0M0JPS2NWQnN1K2MvOXI0SzZRYmUvbnBsenRteHNBdzhBL20tLS9pSW9JNFpzTXZhVEVZZFBmZVF1TGc9PQ%3D%3D--4f9a0d88b646faa6a5ae50bc3f7a70104129db15;
+      Set-Cookie: ['__cfduid=d72d6a865b904c737aa006ec415d6472a1530172346; expires=Fri,
+          28-Jun-19 07:52:26 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=NFhQZGJubndxaTNtTHFDaGxIOWVOQzRKbS8yNGM0eTRvamFoYkZuVDEzSTVITEZ0VEgzZzBKUHBteitqeVJDeGJYQWlFQ1hpZFV6S2NVbUpMZndlZWxybE5PR3BMZ2xOYnpiZGI4Mzc3VkZVeUtUVUlwVUZXYmc1ZmlKOWpwS0UtLWxqSGxUckl5MlJMamFCRjBGS0ZyZ3c9PQ%3D%3D--72e693e717496638a8f8d80014c637f217b96f53;
           path=/; HttpOnly]
       Status: [422 Unprocessable Entity]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [95d363ca-de02-43ea-8731-f053a86ed62f]
-      X-Runtime: ['0.110200']
+      X-Request-Id: [72e58510-e274-4646-b4c3-c23b4eca3817]
+      X-Runtime: ['0.103370']
       X-XSS-Protection: [1; mode=block]
     status: {code: 422, message: Unprocessable Entity}
 - request:
@@ -492,34 +495,33 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/34412/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/338741/submit_export.csv?twqdest=teqwdst
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0MDSyNDasBQDaJW9EJgAA
-        AA==
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMrS0sAAiw1oAh81ZoCYAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fda32c0b853e-HKG]
+      CF-RAY: [431e92f0bb1132f5-HKG]
       Cache-Control: ['public, max-age=7200']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:40 GMT']
-      ETag: [W/"4015be23792fc4bb693552c790866e23"]
+      Date: ['Thu, 28 Jun 2018 07:52:27 GMT']
+      ETag: [W/"a36c929e790d68c24886ce7e9a3bca78"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Expires: ['Wed, 27 Jun 2018 05:57:40 GMT']
+      Expires: ['Thu, 28 Jun 2018 09:52:27 GMT']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d7ec2f7503be08e339292c89331f88a631530071859; expires=Thu,
-          27-Jun-19 03:57:39 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d72d6a865b904c737aa006ec415d6472a1530172346; expires=Fri,
+          28-Jun-19 07:52:26 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [4a4d89b4-c738-4966-ba92-d9be9938fbfb]
-      X-Runtime: ['0.446950']
+      X-Request-Id: [fe27934b-8d29-4422-aa44-028035bee051]
+      X-Runtime: ['0.174838']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -530,32 +532,32 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=19812931&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=19889881&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAA6tWKi5JLCktVrJSyssvUahMLVGqBQCad74zFAAAAA==
     headers:
-      CF-RAY: [4314fda8be023343-HKG]
+      CF-RAY: [431e92f42cac32f5-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:40 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:27 GMT']
       ETag: [W/"1a9d9700c7a4468cc76c1a89ef457491"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d4ce9dafdc244bef9711bfc583764c03c1530071860; expires=Thu,
-          27-Jun-19 03:57:40 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=YWVnY0dmWms3elcrOGNSQVJOam91UjFIKytjTE1oRWFlOFJGUnc1ZzBLZStIRmpCVkFhS2hJeno5eVhPWUo2bDZHbHpsNDhHRERJVkxzNGlXbDJsN0xDQkVXemFoOHpSb0NvaHJNaDJJNDN0UkY3d1hJVWZ0ZVhsQWRpNVpjVnEtLTJsVGo0dmxxeWxtOVJsOUkwYzhGZnc9PQ%3D%3D--2c700b7d579f199fcc914893cdca4dac0db6127c;
+      Set-Cookie: ['__cfduid=dca43f2526d8b754650c61ed38e9ed8071530172347; expires=Fri,
+          28-Jun-19 07:52:27 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=eWFtUHA5YWUxeGZNWUJIS25JZU9jZVhZM2srZUtWZldTZklxY1dTa0xEYmVVenU0bFQxMDVzc1lHN2ZPUnRPM1d0VlVxVDZTVGkxUE1mdmpSN2NmcGV6SkR0M2EwSEhhSVBKRlhJa2l1dFJ6ZDQrNmYwL2FBazB2S0w1dzZnelItLXBBYldZSFVaa20zdVhiOWNPeEVrd0E9PQ%3D%3D--278f05cbfa5324b46d43c63ab283675f92b4741c;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [0a4f4136-4bfd-4bc4-961d-277b2404f017]
-      X-Runtime: ['0.101698']
+      X-Request-Id: [40a289ae-80e9-4680-af5f-0c55e60b0093]
+      X-Runtime: ['0.101321']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -566,34 +568,34 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=19812931&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=19889881&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAAyWKQQ6CMBAA/7JnW7CtgP0MKdslJRGL7KJEwt9Fvc1kZgOWIAuDB14QiRlOQOuU
-        ZwG/QRKZ2ilIOvqX2RdFyreBZUBWTLjMpP67ZqvDGN75Hl6sMY+Fde5slBCLeswtrcct5OVy2C95
-        rMqmt1eq0bgYY11hb4zrys41sYsNauQn7PsHy6Kd1aQAAAA=
+        H4sIAAAAAAAAAyWLUQ6CMBAF77LfthDaCvQypCxLSiIW2QWJhLsL+vcmb2YHliALgwdeEIkZbkDb
+        lGYBv0MUmZopSDz/a7PPspgeA8uArJhwmUn9dc1GhzF80jO8WWMaM2Oq0ioMGEldiXrNDW1nI+TF
+        nfQTfFe0HVGgoi2dqWus787l1pqu6nuLudPIKxzHF7JqZkiqAAAA
     headers:
-      CF-RAY: [4314fdac4e033373-HKG]
+      CF-RAY: [431e92f66bdda356-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:41 GMT']
-      ETag: [W/"7cfb816e60c32b05806546a9ccc6fed8"]
+      Date: ['Thu, 28 Jun 2018 07:52:28 GMT']
+      ETag: [W/"823522aaef8f45c02d24ba709c095bdb"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d48dc3ec4990bb5b34c35e05c471f5bf01530071861; expires=Thu,
-          27-Jun-19 03:57:41 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=NVl1Rjdmc2FoOEdvZDFXSmZ1YWhCY3FUVzZCRXFoOVRERkVmbXZldVgxWjNUeDRrcC9HdHdTZllnTDhBQzEwYnRqMnBTdTFFN1k2ZDQrNkVjcTBHZENwOGRWVDFnQVFzbFlnL0Z0MDc3UDlrTEkxRkYyOXlZWW1CUWREc0FOQVMtLVBaam9nWUtneHlDVjBzRFNJTmx2OEE9PQ%3D%3D--0f94dec49ff5d47ab0277fd25f1e91d501135138;
+      Set-Cookie: ['__cfduid=d2e0a4dbf2f2834faab839c81d8f92f4c1530172347; expires=Fri,
+          28-Jun-19 07:52:27 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=bnlYVUJMUWZaaEVKVHJZcXJIdG9zNHhXdWtjekZZRElXSCsya05DakJid0xldGtBTTNlTjdLeTJ4Z3dIS1VnR2pGa3l3SWZjekxJTFZTWU5DanM4djRnRkpCUEl6UGxLUlpEMDVOQUN1bStUcUVhS1Y0N1BtN0hZd1FNSUc2clYtLVFaYndiaE5tKzdSQW43bDNwQkpnR1E9PQ%3D%3D--9c8ef9fe85f454eb0d9e7c46fb6239b8ead7b175;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [230076f1-156d-4a61-9857-c963ac1ac3da]
-      X-Runtime: ['0.099229']
+      X-Request-Id: [ba6ab83f-c6be-42f3-8134-67f25500954c]
+      X-Runtime: ['0.105903']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -604,28 +606,28 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//exports/download?job_id=19812931
+    uri: https://secure.holistics.io/exports/download?job_id=19889881
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180627T035742Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=a32ab3900b3cfc8f87644d914a470e609a23734eaa5513f41fa7e764a6c78ba6">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180628T075229Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=5471aa149a1623fa2aaab7dc7e5ba1b7ede043533771863ce4b86f6c4360e273">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [4314fdb54e66338b-HKG]
+      CF-RAY: [431e92ff9e323343-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:42 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:29 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035742Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=a32ab3900b3cfc8f87644d914a470e609a23734eaa5513f41fa7e764a6c78ba6']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075229Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=5471aa149a1623fa2aaab7dc7e5ba1b7ede043533771863ce4b86f6c4360e273']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=dd51fc8a7388c5687cdef60bb41378db31530071862; expires=Thu,
-          27-Jun-19 03:57:42 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=d3ZHNVdFeGpEQ0x3bW10bDBGN2ljdG0xc2V1em1yN2ZmMXRLS29mUFlWcVRMTHFEYk54TUVNUXR5a3pCREJob2dZOFNRRkVMWVl5YytvTFVPSk1FY3JlVk5IOEFKV3dNUnZBTXlaSXRmNjE5YlFXbGFZRVFQQzIyRHBWY3ZYN1otLWtWQW9XN1FjdEhkV0xlZlhzL3FmaEE9PQ%3D%3D--c1bb3d3efb4630b803fa9594f5a5ec3013ee946b;
+      Set-Cookie: ['__cfduid=df505a7b173e15003db83f4f43c4e8c7b1530172349; expires=Fri,
+          28-Jun-19 07:52:29 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=b0d3Z1lYN3JyOVhvQjlPbEpyV1BwTW1LN0hCb2xkTStmS01vcFVmY1V0MnVrVkJySjJ2cWdqT1UwSWlhZENIVzQvcVdWS0NkbXArclVIaGpybGF0UWJOUmJsVjk5LzBXdXpvZWM4bUYyVzBrcXVMNGZpSlpDOHVvQzVGMWhkVWEtLUh3bzg1TUxhU0l6MFJ3R20xQjUwTlE9PQ%3D%3D--d4bcec5eedf0ef0b2bb586f4a9eef73f00e147d6;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [a0eedc7f-7d34-44e2-ab98-2c8bc407caa0]
-      X-Runtime: ['0.246092']
+      X-Request-Id: [128b6ae4-c722-40a9-aec4-acd18f97519f]
+      X-Runtime: ['0.107065']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -635,73 +637,240 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035742Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=a32ab3900b3cfc8f87644d914a470e609a23734eaa5513f41fa7e764a6c78ba6
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075229Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=5471aa149a1623fa2aaab7dc7e5ba1b7ede043533771863ce4b86f6c4360e273
   response:
-    body: {string: 'id,schedule_id,creator_id,created_at,updated_at,tenant_id,title,source_id,source_type,durations,options
-
-        1,13609,183,2017-09-13 07:28:19.664131,2017-09-13 07:28:19.664131,5,,5176,QueryReport,60,
-
-        2,13613,183,2017-09-13 08:39:15.786219,2017-09-13 08:39:15.786219,5,,244,Dashboard,600,
-
-        7,13728,4490,2017-09-26 03:02:16.062202,2017-09-26 03:02:16.062202,5,Enrollment
-        Report Cache,15404,QueryReport,60,
-
-        86,14515,4567,2017-11-13 17:02:03.800025,2017-11-13 17:02:03.800025,5,"",1639,Dashboard,600,
-
-        139,15740,2792,2018-01-03 03:31:53.336495,2018-01-03 03:31:53.336495,5,hahaha,16939,QueryReport,10,
-
-        91,14722,4567,2017-11-22 16:48:41.053538,2017-11-22 16:48:41.053538,5,,18415,QueryReport,600,
-
-        92,14723,4567,2017-11-22 16:49:18.029832,2017-11-22 16:49:18.029832,5,,18273,QueryReport,600,
-
-        257,19121,5035,2018-04-11 03:55:39.384433,2018-04-11 03:55:53.295455,5,,27456,QueryReport,10,
-
-        144,15925,2792,2018-01-09 07:42:25.20275,2018-01-09 07:42:25.20275,5,,21104,QueryReport,0,
-
-        135,15574,4567,2017-12-25 11:17:45.172323,2017-12-25 11:17:45.172323,5,,18067,QueryReport,600,
-
-        136,15575,4567,2017-12-25 11:18:03.836627,2017-12-25 11:18:03.836627,5,,18067,QueryReport,600,
-
-        137,15577,4833,2017-12-26 02:29:14.185141,2017-12-26 05:01:55.682006,5,Cache
-        trial customers result,20556,QueryReport,60,
-
-        430,21798,182,2018-06-15 15:20:03.343039,2018-06-15 15:20:03.343039,5,,3329,Dashboard,600,
-
-        433,21886,8353,2018-06-19 04:04:42.533473,2018-06-19 04:04:42.533473,5,Holistics
-        Objects Cumulative Growth Breakdown By Object Type cache,6559,QueryReport,120,
-
-        434,21888,8353,2018-06-19 04:07:53.894595,2018-06-19 04:07:53.894595,5,Reports
-        with Details cache,5121,QueryReport,120,
-
-        435,21989,8353,2018-06-20 08:53:48.995796,2018-06-20 08:53:48.995796,5,test
-        test,33324,QueryReport,60,
-
-        436,21990,8353,2018-06-20 08:58:40.378266,2018-06-20 08:58:40.378266,5,test
-        test,33324,QueryReport,60,
-
-        437,21991,8353,2018-06-20 09:00:28.494975,2018-06-20 09:00:28.494975,5,test
-        test,33324,QueryReport,60,
-
-        214,18002,6931,2018-03-19 08:42:32.716443,2018-03-19 08:42:32.716443,5,,21509,QueryReport,60,
-
-'}
+    body: {string: "tenant_name,owner_name,report_title,repeat\nHolistics Demo,Demo
+        Admin,Buyer Total Purchases,0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel,0 4 * * *\nHolistics Demo,Demo Admin,Gross Market Value Growth,0 4
+        * * *\nHolistics Demo,Demo Admin,Listing Pivot Visualization,0 4 * * *\nHolistics
+        Demo,Demo Admin,Listings Exploration,0 4 * * *\nHolistics Demo,Demo Admin,Listings
+        Growth,0 4 * * *\nHolistics Demo,trang@holistics.io,Daily Revenue by Categories
+        This Week,\"0,30 * * * *\"\nHolistics Demo,Holistics Demo,Buyers Demographics,\"0,30
+        * * * *\"\nHolistics Demo,Demo Admin,Daily Users Growth (+ Cumulative),0 4
+        * * *\nHolistics Demo,Holistics Demo,First-time Buyer Cohort Last 6 Months
+        \ ,0 4 * * *\nHolistics Demo,Demo Admin,Marketplace Categories,0 4 * * *\nHolistics
+        Demo,Demo Admin,New/Returned Buyers + GMVs,0 4 * * *\nHolistics Demo,Demo
+        Admin,Registration Growth,0 4 * * *\nHolistics Demo,Demo Admin,Top listings
+        price by city (with staff permission),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Top N Buyers,0 4 * * *\nHolistics Demo,Demo Admin,Transaction Activities,0
+        4 * * *\nHolistics Demo,Holistics Demo,Transaction Growth,0 4 * * *\nHolistics
+        Demo,Demo Admin,Users By Gender,0 4 * * *\nHolistics Demo,Demo Admin,Bookings
+        by Country,0 4 * * *\nHolistics Demo,Demo Admin,Bookings by Type,0 4 * * *\nHolistics
+        Demo,Demo Admin,Booking Status Breakdown by Month,0 4 * * *\nHolistics Demo,Demo
+        Admin,Histogram of Booking Numbers,0 4 * * *\nHolistics Demo,Demo Admin,Driver
+        Registrations - Breakdown by Countries (Monthly),0 4 * * *\nHolistics Demo,Demo
+        Admin,Driver Registrations (Monthly),0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        Signups By Country,0 4 * * *\nHolistics Demo,Demo Admin,Average Booking Waiting
+        Time,0 4 * * *\nHolistics Demo,Demo Admin,Broadcasts by Country,0 4 * * *\nHolistics
+        Demo,Demo Admin,User Segmentation Report,0 4 * * *\nHolistics Demo,Demo Admin,Daily
+        Seats Occupancy,0 4 * * *\nHolistics Demo,Demo Admin,Guests Segmentation Report,0
+        4 * * *\nHolistics Demo,Demo Admin,Room Revenues & Occupancy Rates,0 4 * *
+        *\nHolistics Demo,Demo Admin,Bar Chart Product Listings,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Bar Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        Chart Margin/Volume (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel (legacy),0 4 * * *\nHolistics Demo,Holistics Demo,Dual Axis Charts
+        (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Funnel chart,0 4 * * *\nHolistics
+        Demo,Huy,Grouping long-tail together - Sales by City,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Line Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Line
+        Chart Users Growth,0 4 * * *\nHolistics Demo,Demo Admin,Listing pivot data
+        table,0 4 * * *\nHolistics Demo,Demo Admin,Mongo Geo Heatmap,0 4 * * *\nHolistics
+        Demo,Demo Admin,Pie Chart Cuisine Types (MongoDB),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Pie Chart - Gross Profit by Brand (legacy),0 4 * * *\nHolistics Demo,Demo
+        Admin,Pie Chart (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Restaurants
+        Rating Geo Heatmap,0 4 * * *\nHolistics Demo,Holistics Demo,Sales Funnel (Funnel
+        Chart),0 4 * * *\nHolistics Demo,Demo Admin,Scatter plot (Margin/Qty),0 4
+        * * *\nHolistics Demo,Holistics Demo,Stacked Area Charts,0 4 * * *\nHolistics
+        Demo,Demo Admin,User usage combination chart,0 4 * * *\nHolistics Demo,Demo
+        Admin,Drill into Order Status,0 4 * * *\nHolistics Demo,Demo Admin,Order by
+        Status,0 4 * * *\nHolistics Demo,Holistics Demo,(3) Dropdown Filter (Manual
+        Entries),0 4 * * *\nHolistics Demo,Holistics Demo,1. Query Templates (Before),0
+        4 * * *\nHolistics Demo,Holistics Demo,2. Query Templates (After),0 4 * *
+        *\nHolistics Demo,Demo Admin,Parent-Child Chaining,0 4 * * *\nHolistics Demo,Demo
+        Admin,Mongo Restaurant Details,0 4 * * *\nHolistics Demo,Holistics Demo,(1)
+        Records Based Access Control,0 4 * * *\nHolistics Demo,Demo Admin,2 Line Charts,0
+        4 * * *\nHolistics Demo,Holistics Demo,Column Dimension Filters,0 4 * * *\nHolistics
+        Demo,Demo Admin,Column-permission: Show/Hide Column for Particular Users,0
+        4 * * *\nHolistics Demo,Demo Admin,Data Explore (Business User),0 4 * * *\nHolistics
+        Demo,Demo Admin,Else Open,0 4 * * *\nHolistics Demo,Demo Admin,Retail User
+        Lookup,0 4 * * *\nHolistics Demo,Demo Admin,Active Holistics Users By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Customer User Growth By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Data Reporting Usage,0 4 * *
+        *\nHolistics Demo,Demo Admin,Holistics Purchased Plan Category,0 4 * * *\nHolistics
+        Demo,Demo Admin,Holistics Weekly Automated Reports Sent,0 4 * * *\nHolistics
+        Demo,Trang Le,Cohort  Sellers Revenue,\"0,30 * * * *\"\nHolistics Demo,Demo
+        Admin,Listings Breakdown by Categories,0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        With Low Credits,0 4 * * *\nHolistics Demo,Demo Admin,Driver/Bookings Histogram,0
+        4 * * *\nHolistics Demo,Demo Admin,Guest Reservations by Cities,0 4 * * *\nHolistics
+        Demo,Demo Admin,Revenue by Room Types,0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        chart (profitability),0 4 * * *\nHolistics Demo,Holistics Demo,Line & Column
+        Chart,0 4 * * *\nHolistics Demo,Holistics Demo,Users Demographic by Age Group,0
+        4 * * *\nHolistics Demo,Holistics Demo,(2) Column Based Records Access Control,0
+        4 * * *\nHolistics Demo,Holistics Demo,Buyer Purchase Activities,\"0,30 *
+        * * *\"\nHolistics Demo,Demo Admin,Number of drivers per country,0 4 * * *\nHolistics
+        Demo,Demo Admin,Passengers Registrations,0 4 * * *\nHolistics Demo,Demo Admin,Orders
+        by Payment Method,0 4 * * *\nHolistics Demo,Holistics Demo,Chart Colors,0
+        4 * * *\nHolistics Demo,Demo Admin,Conversion Funnel Hotels Booked,0 4 * *
+        *\nHolistics Demo,Demo Admin,Scatter Charts (legacy),0 4 * * *\nHolistics
+        Demo,Holistics Demo,(1) Dropdown Filters from a Database Table,0 4 * * *\nHolistics
+        Demo,Holistics Demo,(2) Dropdown Filters using SQL,0 4 * * *\nHolistics Demo,Demo
+        Admin,Holistics Data Preparation Usage,0 4 * * *\nJuno,Nhan Le,2.01 MTD,0
+        1 * * *\nJuno,Nhan Le,2.05 Hi\u1EC7u qu\u1EA3 gi\u1EDD c\xF4ng Offline,0 0
+        * * *\nJuno,Nhan Le,2.13 B\xE1o c\xE1o v\u1EADn h\xE0nh theo ASM,0 0 * * 4\nJuno,Nhan
+        Le,3.02 Kh\xE1ch h\xE0ng th\xE2n thi\u1EBFt,0 0 * * *\nJuno,Nhan Le,5.02 B\xE1o
+        c\xE1o Th\u0103ng ti\u1EBFn/Thuy\xEAn chuy\u1EC3n,0 0 * * *\nJuno,Nhan Le,2.04
+        Doanh thu + T\u1ED5ng bill + TB bill,0 0 * * *\nJuno,Nhan Le,2.07 T\u0103ng
+        tr\u01B0\u1EDFng so v\u1EDBi c\xF9ng k\u1EF3 th\xE1ng/n\u0103m tr\u01B0\u1EDBc,0
+        0 * * *\nJuno,Nhan Le,Doanh thu + L\u1EE3i nhu\u1EADn theo k\xEAnh b\xE1n
+        h\xE0ng/nh\xF3m SP,0 0 * * *\nJuno,Nhan Le,L\u1EE3i nhu\u1EADn & Margin,0
+        0 * * *\nHolistics Internal,Huy Tran,Holistics Objects Cumulative Growth Breakdown
+        By Object Type,0 0 19 * *\nHolistics Internal,Huy - Holistics,Reports with
+        Details,0 1 * * *\nHolistics Internal,Phat,Holistics_queries,0 0 * * *\nHolistics
+        Internal,Phat,Holistics_queries,\"0 0 * * 3,4,6\"\nHolistics Internal,Phat,Holistics_queries,0
+        0 11 * *\niAct,Advocatus Kakorozya,Deals Done by Activators,\"0,10,20,30,40,50
+        * * * *\"\nHolistics Internal,Dat Bui,KFIT Current Running Reports,\"0,10,20,30,40,50
+        * * * *\"\nWakeo,Blandine Poite,Number of shipments by geographical line,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by geographical zone,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by port of arrival,0 * * *
+        *\nWakeo,Blandine Poite,Average delay by geographical line (in days),0 * *
+        * *\nWakeo,Blandine Poite,Average delay by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average delays by geographical zone (in days),0 * * * *\nWakeo,Blandine
+        Poite,Delays by freight forwarder,0 * * * *\nWakeo,Blandine Poite,Delays by
+        geographical line,0 * * * *\nWakeo,Blandine Poite,Delays by geographical zone,0
+        * * * *\nWakeo,Blandine Poite,Delays by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Total shipments,0 * * * *\nWakeo,Blandine Poite,Number of shipments
+        by client,0 * * * *\nWakeo,Blandine Poite,Number of shipments by freight forwarder,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by port of departure,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average transit time by geographical zone - in days,0 * * * *\nWakeo,Blandine
+        Poite,Avg transit time by geographical line - in days,0 * * * *\nWakeo,Blandine
+        Poite,Average delay by freight forwarder,0 * * * *\nTada Network,Hendra Wahyudi,Tada
+        Goes to Bali - TADA Redeem,\"0,10,20,30,40,50 * * * *\"\nTada Network,Hendra
+        Wahyudi,Tada Goes to Bali - TADA Wallet Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,Promocodes
+        created for payment drop users,0 0 * * *\nShopBack,Huanyuan,MTD Daily Averages,30
+        2 * * *\ne27,Public Account,No. of Startups By Country Qualifier,45 3 * *
+        *\nHolistics Internal,Thanh Dinh,Cache hit rate,29 7 * * *\nHolistics Internal,Raghavendran
+        Vasudevan,Ragha - Simple Pivot Report,0 7 * * *\nReviewTrackers,Zach Cox,#
+        Review Requests by Account,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Account / # of Locations,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Most Recent Public Review,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Current Month Adds and Subs,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Recently Added,\"0 0,3,6,9,12,15,18,21 * * *\"\nGameAnalytics,Datascience
+        GA,Total new users,0 7 * * *\nGameAnalytics,Datascience GA,New users,0 7 *
+        * *\nGameAnalytics,Datascience GA,Total new users by SDK,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 countries,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 games,0 7 * * *\nGameAnalytics,Datascience GA,Daily
+        hours played,0 7 * * *\nGameAnalytics,Datascience GA,Daily sessions played,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily active users - new vs returning,0
+        7 * * *\nGameAnalytics,Datascience GA,Number of players per number of sessions,0
+        7 * * *\nGameAnalytics,Datascience GA,DAU,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily average number of sessions,0 7 * * *\nGameAnalytics,Datascience GA,DAU
+        by SDK,0 7 * * *\nGameAnalytics,Datascience GA,DAU by top 20 games,0 7 * *
+        *\nGameAnalytics,Datascience GA,Day 1 retention,0 7 * * *\nGameAnalytics,Datascience
+        GA,Day 2 retention,0 7 * * *\nGameAnalytics,Datascience GA,Fraction of payers,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily revenue and payers,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily ARPU and ARPPU,0 7 * * *\nGameAnalytics,Datascience GA,ARPU (USS),0
+        7 * * *\nGameAnalytics,Datascience GA,ARPPU (USS),0 7 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily new users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new
+        users by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by platform,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total new users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total new users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily
+        active users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by
+        game,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by platform,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by top 20 countries,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users: new vs returning,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Total active users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by app version,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,2nd
+        payment conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,ARPPU,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,ARPU,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily ARPU and
+        ARPPU,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily conversion,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Daily revenue and payers,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total IAP revenue,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total payers,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Mean D1,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D2,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D3,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D4,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D5,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D6,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D7,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Retained days,0 10 * * *\nGameAnalytics,Freeform Voodoo,Retention by
+        day,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily average and median session
+        length,0 8 * * *\nGameAnalytics,Freeform Voodoo,Daily hours played per game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily number of sessions,0 8 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily number of sessions per user,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily session length per user,0 10 * * *\nGameAnalytics,Freeform Voodoo,Number
+        of players per number of sessions,0 10 * * *\nGameAnalytics,Freeform Voodoo,Session
+        funnel,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total hours played,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total number of sessions,0 8 * * *\nWorld
+        of Grab,Aayush Garg,Jakarta GE bookings,0 0 * * *\nHolistics Internal,Trang
+        Le,The Typical Feature Usage,\"0 0,6,12,18 * * *\"\nHolistics Internal,Trang
+        Le,Holistic Features Auditing,\"0 0,6,12,18 * * *\"\nHotelQuickly,BI Team,Marketing
+        Cost % by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily TSC,45 3 * * *\nHotelQuickly,BI
+        Team, Sold Out Error Rate % ,0 0 * * *\nHotelQuickly,BI Team,Booking Error
+        Rate%,0 0 * * *\nHotelQuickly,BI Team,Daily Meta Bookings by Channel,0 0 *
+        * *\nHotelQuickly,BI Team,Daily Meta Cost by Channel,0 0 * * *\nHotelQuickly,BI
+        Team,Daily Meta GBV by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily Total
+        MSE PC3,0 0 * * *\nHotelQuickly,BI Team,Session_Conversion,0 0 * * *\nHotelQuickly,BI
+        Team,Sessions,0 0 * * *\nHotelQuickly,BI Team,TA_Trivago_Clicks,0 0 * * *\nHotelQuickly,BI
+        Team,TA_Trivago Conversion,0 0 * * *\nAhaMove,Bi Ai,[General] Orders,0 0 *
+        * *\nGameAnalytics,Datascience GA,Softlaunch games,0 0 * * *\nHotelQuickly,BI
+        Team,Inventory Search Count per Source,0 0 * * *\nHotelQuickly,BI Team,Top
+        Hotels by GBV,0 0 * * *\nHotelQuickly,BI Team,Top 10 storefronts,0 0 * * *\nHotelQuickly,BI
+        Team,MSE GBV by Top 10 Storefronts,\"0 0,12 * * *\"\nHotelQuickly,BI Team,Daily
+        Availability % ,\"0 0,3,6,9,12,15,18,21 * * *\"\nFalconBrick Technologies,sweekar,Activity
+        Progress,0 0 * * *\nHotelQuickly,BI Team,Trivago Conversion Storefront,\"0
+        0,6,12,18 * * *\"\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        5 * * *\nHolistics Internal,Thong Do,Onboarding User Journey,0 1 * * *\nHolistics
+        Internal,Thong Do,Onboarding User Journey,0 10 * * *\nHolistics Internal,Trang
+        Le,Cohort Activities Customers,0 0 * * *\nNoddus,Enrique Espejo,New Operations:
+        CCP,0 * * * *\nHolistics Internal,Cat Vu,Outbound Overall,0 0 * * *\nHotelQuickly,BI
+        Team,In-House Trivago Bidding Tracker,\"0,30 * * * *\"\nCatchThatBus,Harris,CTB
+        Counter Daily Sales Report (CTBX Sales Only),0 16 * * *\nCatchThatBus,Harris,CTB
+        Counter Daily Sales,1 16 * * *\nLINE GAMES,\uAE40\uC131\uC778,LS_CBT_\uC544\uB808\uB098
+        \uB9AC\uADF8\uBCC4 \uB370\uC774\uD130,0 0 * * *\nTada Network,Hendra Wahyudi,Apps
+        Install/UnInstall Android,0 0 * * *\nTada Network,Hendra Wahyudi,Apps Install
+        IOS,0 0 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        10 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0 15 *
+        * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto 21987,43
+        2 * * *\nPT Yesboss Indonesia,Hifandi,# of Incoming Messages To Date - presto
+        21979,5 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Outgoing Messages Bubbles
+        to Date - Presto 21962,10 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Active
+        Users to Date - presto 21987,45 2 * * *\nPT Yesboss Indonesia,Hifandi,# of
+        Incoming Messages To Date - presto 21979,5 19 * * *\nPT Yesboss Indonesia,Hifandi,#
+        of Outgoing Messages Bubbles to Date - Presto 21962,10 19 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,0 0 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,\"0,15,30,45
+        * * * *\"\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto
+        21987,0 21 * * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date -
+        presto 21987,50 2 * * *\nTada Network,Hendra Wahyudi,Capital Life - TADA Wallet
+        Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,\"Daily Sales Report
+        (CTB Products, Categorized, last 7 days)\",\"0,15,30,45 * * * *\"\nCatchThatBus,Harris,Daily
+        Klang Sentral Sales Report Last 7 days (Per Operator),\"0,15,30,45 * * * *\"\ne27,Public
+        Account,Top 100 Pitching Details ,\"0 0,6,12,18 * * *\"\nLINE GAMES,\uD55C\uC218\uC9C4,\uC2E4\uC2DC\uAC04
+        \uC720\uC800 \uB808\uBCA8\uBD84\uD3EC\uB3C4,0 0 * * *\ne27,Public Account,Echelon
+        Top100 2018 Qualifier: General Attendees  ,\"0,10,20,30,40,50 * * * *\"\nTada
+        Network,Hendra Wahyudi,SurveyMegaFinance,0 0 * * *\nHolistics Internal,Huy
+        - Holistics,candis hello,0 0 * * *\n"}
     headers:
       Accept-Ranges: [bytes]
       Content-Disposition: [attachment]
-      Content-Length: ['2049']
+      Content-Length: ['16677']
       Content-Type: [text/csv]
-      Date: ['Wed, 27 Jun 2018 03:57:44 GMT']
-      ETag: ['"1475c6a92fdf03a408f521086bdd9d15"']
-      Last-Modified: ['Wed, 27 Jun 2018 03:57:37 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:30 GMT']
+      ETag: ['"b717964388312f23c69e3c89d511ba0a"']
+      Last-Modified: ['Thu, 28 Jun 2018 07:47:40 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Fri, 29 Jun 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Sat, 30 Jun 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [ZCSRZb6aEisQISU141q8Npm7u6C8zStEpNgGbKIspwrGYu0TW3pyv4GyT5tAtgbF5CvRbxrX24g=]
-      x-amz-meta-cache_expired_at: ['2018-06-27T04:07:35+00:00']
-      x-amz-meta-cache_saved_at: ['2018-06-27T03:57:35+00:00']
-      x-amz-request-id: [4803C35B7EFB1F5B]
+      x-amz-id-2: [Z7b8ks4HdfZ2wHW6V1p/SLL8qzbBRupKH5JtMpXl7bteUHVRT4pu/vdbYnapZ/j0KdhwENprnf0=]
+      x-amz-meta-cache_expired_at: ['2018-06-28T07:57:38+00:00']
+      x-amz-meta-cache_saved_at: ['2018-06-28T07:47:38+00:00']
+      x-amz-request-id: [2C5419A7D77B2934]
     status: {code: 200, message: OK}
 - request:
     body: null
@@ -711,31 +880,31 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/aehnaga/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/aehnaga/submit_export.csv?twqdest=teqwdst
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAAwtKLc4vLUpOVcjLL1FIyy/NSwEAUBSJABIAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [4314fdbf7865a326-HKG]
+      CF-RAY: [431e930578cea332-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:44 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:30 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d87776c0e5b4dfcd10be811ebed05dfa71530071864; expires=Thu,
-          27-Jun-19 03:57:44 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=da761f7a3cd645dec001f9e5ac50c4d531530172350; expires=Fri,
+          28-Jun-19 07:52:30 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [36c2af11-45f7-4c36-9d03-5dbdde9d7eaa]
-      X-Runtime: ['0.100905']
+      X-Request-Id: [639ec787-b7a7-4c97-977f-d83e0f165e3f]
+      X-Runtime: ['0.102884']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 - request:
@@ -746,34 +915,34 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=19812931&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=19889881&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAAyWKQQ6CMBAA/7JnW7CtgP0MKdslJRGL7KJEwt9Fvc1kZgOWIAuDB14QiRlOQOuU
-        ZwG/QRKZ2ilIOvqX2RdFyreBZUBWTLjMpP67ZqvDGN75Hl6sMY+Fde5slBCLeswtrcct5OVy2C95
-        rMqmt1eq0bgYY11hb4zrys41sYsNauQn7PsHy6Kd1aQAAAA=
+        H4sIAAAAAAAAAyWLUQ6CMBAF77LfthDaCvQypCxLSiIW2QWJhLsL+vcmb2YHliALgwdeEIkZbkDb
+        lGYBv0MUmZopSDz/a7PPspgeA8uArJhwmUn9dc1GhzF80jO8WWMaM2Oq0ioMGEldiXrNDW1nI+TF
+        nfQTfFe0HVGgoi2dqWus787l1pqu6nuLudPIKxzHF7JqZkiqAAAA
     headers:
-      CF-RAY: [4314fdc3589d32e9-HKG]
+      CF-RAY: [431e93089cd0a350-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:45 GMT']
-      ETag: [W/"7cfb816e60c32b05806546a9ccc6fed8"]
+      Date: ['Thu, 28 Jun 2018 07:52:31 GMT']
+      ETag: [W/"823522aaef8f45c02d24ba709c095bdb"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d97c763be62b547da828d1922508c7c881530071864; expires=Thu,
-          27-Jun-19 03:57:44 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=ekdreENRRnZJdGdTR2tGSmVxSk4venhsMkZTYlZVWjEwVXVtSWRzNzdhR1pkOE9nc212N0JybVNubDU0czN0RU9sZUlyRWE2SnZoeVZwS3NYcHY2ZHE3WUpHTUdaa3ZuQ0oyenFUeWh2ZW5iN0FSVUdEMjh1UGZCc1JxY3JQbDctLUNNZnB2QTFCSWhzdm5VWFdBQkl3eXc9PQ%3D%3D--5e0b84301ce5cbd98dd79c87c27f07141fc821f2;
+      Set-Cookie: ['__cfduid=d665c603bc0ac4dae52a005df0f2d317a1530172350; expires=Fri,
+          28-Jun-19 07:52:30 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=ZlRRTW9SNkc4TVFuOXkyTnRIZ2REMXhWc1RmdWwzcEdrQ3NsT09yNFpvOVpJVDJsMTFWQTZJa2Q1QmFUU0NBSTRjSXdIdndseWhLeWVLRXgzOEJyN1VCOUNXWkJXWW5jYURjS3lPWEZNd1hIeEoyZUNCYW5UMjhKbjZZZUZLZEwtLXhvV2VvM1U4Z2ViYjdIU214Q2pzRnc9PQ%3D%3D--6ffed61f33de7eab7e15e8234834b2ad80488334;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [4c97fdce-0ad8-49b4-bae0-3ecf54921f98]
-      X-Runtime: ['0.110417']
+      X-Request-Id: [80980979-cc1b-4041-9083-c0d4cefd8e41]
+      X-Runtime: ['0.145753']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -784,28 +953,28 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//exports/download?job_id=19812931
+    uri: https://secure.holistics.io/exports/download?job_id=19889881
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180627T035745Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8fd50c41899f8b331506484e1bd897253c3a2812f15d1b2de44c2eb63377c2e0">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180628T075231Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e66047c359a85d29c6905e76dfa6036aa0d581ceea3eb0365467b83b8aa57179">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [4314fdc64b508538-HKG]
+      CF-RAY: [431e930bd8e0a320-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:57:45 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:31 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035745Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=8fd50c41899f8b331506484e1bd897253c3a2812f15d1b2de44c2eb63377c2e0']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075231Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e66047c359a85d29c6905e76dfa6036aa0d581ceea3eb0365467b83b8aa57179']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d1724e987d04d39282a3726095c32d2ce1530071865; expires=Thu,
-          27-Jun-19 03:57:45 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=WWJ1R1VqM0JlMmhIWGFzTjRTQytxTGZWMElySVRWVVN2RFQ1eG5SRzhQbDNmMThpY0MrQytxa2FpTkFsayt2T1VIS2t1a3BwTTFuNmk3SVJRTkxtbFFFYTFiUWs2cDN1Wk1WUGxtdERDQ3lIZTJ2WWQwc1lGbUs3cmRoY3hockEtLXhESUphcWdweEtySy9sb2l6L3VDS0E9PQ%3D%3D--b5ae9e5e20a2ec349e4473889e7bcad55b7ae0f0;
+      Set-Cookie: ['__cfduid=d9379e9faa5cbc7ddc435325deb5dc7a41530172351; expires=Fri,
+          28-Jun-19 07:52:31 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=MjJHL3hkKytTYS9yVjlBb3k4M2ZEL01DZXZUcmcwbnZ0SlUxZFJZVHhVaWNqY21EemJIMFl2RGg0enQ5UVk3cXBMY0l1WWVHUGtWZFJObnBiQTdER3Zsa21FZk15Q3ZRQzEzR0lqYkdKOGZxZHB5UGp5OTBjOEpiN05JRklLZm0tLVhNbTFOL3ZwYndzbFJrNnh3ZDJpNmc9PQ%3D%3D--c7a5add5cce19b4b52ccd37ac54b2af7757dc2f0;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [f8dfbc16-4f90-4065-901c-de13aa87f4c8]
-      X-Runtime: ['0.228141']
+      X-Request-Id: [1423a7c2-bce6-4246-af0d-2269eab87a80]
+      X-Runtime: ['0.300344']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -815,73 +984,240 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035745Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=8fd50c41899f8b331506484e1bd897253c3a2812f15d1b2de44c2eb63377c2e0
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075231Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e66047c359a85d29c6905e76dfa6036aa0d581ceea3eb0365467b83b8aa57179
   response:
-    body: {string: 'id,schedule_id,creator_id,created_at,updated_at,tenant_id,title,source_id,source_type,durations,options
-
-        1,13609,183,2017-09-13 07:28:19.664131,2017-09-13 07:28:19.664131,5,,5176,QueryReport,60,
-
-        2,13613,183,2017-09-13 08:39:15.786219,2017-09-13 08:39:15.786219,5,,244,Dashboard,600,
-
-        7,13728,4490,2017-09-26 03:02:16.062202,2017-09-26 03:02:16.062202,5,Enrollment
-        Report Cache,15404,QueryReport,60,
-
-        86,14515,4567,2017-11-13 17:02:03.800025,2017-11-13 17:02:03.800025,5,"",1639,Dashboard,600,
-
-        139,15740,2792,2018-01-03 03:31:53.336495,2018-01-03 03:31:53.336495,5,hahaha,16939,QueryReport,10,
-
-        91,14722,4567,2017-11-22 16:48:41.053538,2017-11-22 16:48:41.053538,5,,18415,QueryReport,600,
-
-        92,14723,4567,2017-11-22 16:49:18.029832,2017-11-22 16:49:18.029832,5,,18273,QueryReport,600,
-
-        257,19121,5035,2018-04-11 03:55:39.384433,2018-04-11 03:55:53.295455,5,,27456,QueryReport,10,
-
-        144,15925,2792,2018-01-09 07:42:25.20275,2018-01-09 07:42:25.20275,5,,21104,QueryReport,0,
-
-        135,15574,4567,2017-12-25 11:17:45.172323,2017-12-25 11:17:45.172323,5,,18067,QueryReport,600,
-
-        136,15575,4567,2017-12-25 11:18:03.836627,2017-12-25 11:18:03.836627,5,,18067,QueryReport,600,
-
-        137,15577,4833,2017-12-26 02:29:14.185141,2017-12-26 05:01:55.682006,5,Cache
-        trial customers result,20556,QueryReport,60,
-
-        430,21798,182,2018-06-15 15:20:03.343039,2018-06-15 15:20:03.343039,5,,3329,Dashboard,600,
-
-        433,21886,8353,2018-06-19 04:04:42.533473,2018-06-19 04:04:42.533473,5,Holistics
-        Objects Cumulative Growth Breakdown By Object Type cache,6559,QueryReport,120,
-
-        434,21888,8353,2018-06-19 04:07:53.894595,2018-06-19 04:07:53.894595,5,Reports
-        with Details cache,5121,QueryReport,120,
-
-        435,21989,8353,2018-06-20 08:53:48.995796,2018-06-20 08:53:48.995796,5,test
-        test,33324,QueryReport,60,
-
-        436,21990,8353,2018-06-20 08:58:40.378266,2018-06-20 08:58:40.378266,5,test
-        test,33324,QueryReport,60,
-
-        437,21991,8353,2018-06-20 09:00:28.494975,2018-06-20 09:00:28.494975,5,test
-        test,33324,QueryReport,60,
-
-        214,18002,6931,2018-03-19 08:42:32.716443,2018-03-19 08:42:32.716443,5,,21509,QueryReport,60,
-
-'}
+    body: {string: "tenant_name,owner_name,report_title,repeat\nHolistics Demo,Demo
+        Admin,Buyer Total Purchases,0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel,0 4 * * *\nHolistics Demo,Demo Admin,Gross Market Value Growth,0 4
+        * * *\nHolistics Demo,Demo Admin,Listing Pivot Visualization,0 4 * * *\nHolistics
+        Demo,Demo Admin,Listings Exploration,0 4 * * *\nHolistics Demo,Demo Admin,Listings
+        Growth,0 4 * * *\nHolistics Demo,trang@holistics.io,Daily Revenue by Categories
+        This Week,\"0,30 * * * *\"\nHolistics Demo,Holistics Demo,Buyers Demographics,\"0,30
+        * * * *\"\nHolistics Demo,Demo Admin,Daily Users Growth (+ Cumulative),0 4
+        * * *\nHolistics Demo,Holistics Demo,First-time Buyer Cohort Last 6 Months
+        \ ,0 4 * * *\nHolistics Demo,Demo Admin,Marketplace Categories,0 4 * * *\nHolistics
+        Demo,Demo Admin,New/Returned Buyers + GMVs,0 4 * * *\nHolistics Demo,Demo
+        Admin,Registration Growth,0 4 * * *\nHolistics Demo,Demo Admin,Top listings
+        price by city (with staff permission),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Top N Buyers,0 4 * * *\nHolistics Demo,Demo Admin,Transaction Activities,0
+        4 * * *\nHolistics Demo,Holistics Demo,Transaction Growth,0 4 * * *\nHolistics
+        Demo,Demo Admin,Users By Gender,0 4 * * *\nHolistics Demo,Demo Admin,Bookings
+        by Country,0 4 * * *\nHolistics Demo,Demo Admin,Bookings by Type,0 4 * * *\nHolistics
+        Demo,Demo Admin,Booking Status Breakdown by Month,0 4 * * *\nHolistics Demo,Demo
+        Admin,Histogram of Booking Numbers,0 4 * * *\nHolistics Demo,Demo Admin,Driver
+        Registrations - Breakdown by Countries (Monthly),0 4 * * *\nHolistics Demo,Demo
+        Admin,Driver Registrations (Monthly),0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        Signups By Country,0 4 * * *\nHolistics Demo,Demo Admin,Average Booking Waiting
+        Time,0 4 * * *\nHolistics Demo,Demo Admin,Broadcasts by Country,0 4 * * *\nHolistics
+        Demo,Demo Admin,User Segmentation Report,0 4 * * *\nHolistics Demo,Demo Admin,Daily
+        Seats Occupancy,0 4 * * *\nHolistics Demo,Demo Admin,Guests Segmentation Report,0
+        4 * * *\nHolistics Demo,Demo Admin,Room Revenues & Occupancy Rates,0 4 * *
+        *\nHolistics Demo,Demo Admin,Bar Chart Product Listings,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Bar Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        Chart Margin/Volume (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel (legacy),0 4 * * *\nHolistics Demo,Holistics Demo,Dual Axis Charts
+        (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Funnel chart,0 4 * * *\nHolistics
+        Demo,Huy,Grouping long-tail together - Sales by City,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Line Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Line
+        Chart Users Growth,0 4 * * *\nHolistics Demo,Demo Admin,Listing pivot data
+        table,0 4 * * *\nHolistics Demo,Demo Admin,Mongo Geo Heatmap,0 4 * * *\nHolistics
+        Demo,Demo Admin,Pie Chart Cuisine Types (MongoDB),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Pie Chart - Gross Profit by Brand (legacy),0 4 * * *\nHolistics Demo,Demo
+        Admin,Pie Chart (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Restaurants
+        Rating Geo Heatmap,0 4 * * *\nHolistics Demo,Holistics Demo,Sales Funnel (Funnel
+        Chart),0 4 * * *\nHolistics Demo,Demo Admin,Scatter plot (Margin/Qty),0 4
+        * * *\nHolistics Demo,Holistics Demo,Stacked Area Charts,0 4 * * *\nHolistics
+        Demo,Demo Admin,User usage combination chart,0 4 * * *\nHolistics Demo,Demo
+        Admin,Drill into Order Status,0 4 * * *\nHolistics Demo,Demo Admin,Order by
+        Status,0 4 * * *\nHolistics Demo,Holistics Demo,(3) Dropdown Filter (Manual
+        Entries),0 4 * * *\nHolistics Demo,Holistics Demo,1. Query Templates (Before),0
+        4 * * *\nHolistics Demo,Holistics Demo,2. Query Templates (After),0 4 * *
+        *\nHolistics Demo,Demo Admin,Parent-Child Chaining,0 4 * * *\nHolistics Demo,Demo
+        Admin,Mongo Restaurant Details,0 4 * * *\nHolistics Demo,Holistics Demo,(1)
+        Records Based Access Control,0 4 * * *\nHolistics Demo,Demo Admin,2 Line Charts,0
+        4 * * *\nHolistics Demo,Holistics Demo,Column Dimension Filters,0 4 * * *\nHolistics
+        Demo,Demo Admin,Column-permission: Show/Hide Column for Particular Users,0
+        4 * * *\nHolistics Demo,Demo Admin,Data Explore (Business User),0 4 * * *\nHolistics
+        Demo,Demo Admin,Else Open,0 4 * * *\nHolistics Demo,Demo Admin,Retail User
+        Lookup,0 4 * * *\nHolistics Demo,Demo Admin,Active Holistics Users By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Customer User Growth By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Data Reporting Usage,0 4 * *
+        *\nHolistics Demo,Demo Admin,Holistics Purchased Plan Category,0 4 * * *\nHolistics
+        Demo,Demo Admin,Holistics Weekly Automated Reports Sent,0 4 * * *\nHolistics
+        Demo,Trang Le,Cohort  Sellers Revenue,\"0,30 * * * *\"\nHolistics Demo,Demo
+        Admin,Listings Breakdown by Categories,0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        With Low Credits,0 4 * * *\nHolistics Demo,Demo Admin,Driver/Bookings Histogram,0
+        4 * * *\nHolistics Demo,Demo Admin,Guest Reservations by Cities,0 4 * * *\nHolistics
+        Demo,Demo Admin,Revenue by Room Types,0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        chart (profitability),0 4 * * *\nHolistics Demo,Holistics Demo,Line & Column
+        Chart,0 4 * * *\nHolistics Demo,Holistics Demo,Users Demographic by Age Group,0
+        4 * * *\nHolistics Demo,Holistics Demo,(2) Column Based Records Access Control,0
+        4 * * *\nHolistics Demo,Holistics Demo,Buyer Purchase Activities,\"0,30 *
+        * * *\"\nHolistics Demo,Demo Admin,Number of drivers per country,0 4 * * *\nHolistics
+        Demo,Demo Admin,Passengers Registrations,0 4 * * *\nHolistics Demo,Demo Admin,Orders
+        by Payment Method,0 4 * * *\nHolistics Demo,Holistics Demo,Chart Colors,0
+        4 * * *\nHolistics Demo,Demo Admin,Conversion Funnel Hotels Booked,0 4 * *
+        *\nHolistics Demo,Demo Admin,Scatter Charts (legacy),0 4 * * *\nHolistics
+        Demo,Holistics Demo,(1) Dropdown Filters from a Database Table,0 4 * * *\nHolistics
+        Demo,Holistics Demo,(2) Dropdown Filters using SQL,0 4 * * *\nHolistics Demo,Demo
+        Admin,Holistics Data Preparation Usage,0 4 * * *\nJuno,Nhan Le,2.01 MTD,0
+        1 * * *\nJuno,Nhan Le,2.05 Hi\u1EC7u qu\u1EA3 gi\u1EDD c\xF4ng Offline,0 0
+        * * *\nJuno,Nhan Le,2.13 B\xE1o c\xE1o v\u1EADn h\xE0nh theo ASM,0 0 * * 4\nJuno,Nhan
+        Le,3.02 Kh\xE1ch h\xE0ng th\xE2n thi\u1EBFt,0 0 * * *\nJuno,Nhan Le,5.02 B\xE1o
+        c\xE1o Th\u0103ng ti\u1EBFn/Thuy\xEAn chuy\u1EC3n,0 0 * * *\nJuno,Nhan Le,2.04
+        Doanh thu + T\u1ED5ng bill + TB bill,0 0 * * *\nJuno,Nhan Le,2.07 T\u0103ng
+        tr\u01B0\u1EDFng so v\u1EDBi c\xF9ng k\u1EF3 th\xE1ng/n\u0103m tr\u01B0\u1EDBc,0
+        0 * * *\nJuno,Nhan Le,Doanh thu + L\u1EE3i nhu\u1EADn theo k\xEAnh b\xE1n
+        h\xE0ng/nh\xF3m SP,0 0 * * *\nJuno,Nhan Le,L\u1EE3i nhu\u1EADn & Margin,0
+        0 * * *\nHolistics Internal,Huy Tran,Holistics Objects Cumulative Growth Breakdown
+        By Object Type,0 0 19 * *\nHolistics Internal,Huy - Holistics,Reports with
+        Details,0 1 * * *\nHolistics Internal,Phat,Holistics_queries,0 0 * * *\nHolistics
+        Internal,Phat,Holistics_queries,\"0 0 * * 3,4,6\"\nHolistics Internal,Phat,Holistics_queries,0
+        0 11 * *\niAct,Advocatus Kakorozya,Deals Done by Activators,\"0,10,20,30,40,50
+        * * * *\"\nHolistics Internal,Dat Bui,KFIT Current Running Reports,\"0,10,20,30,40,50
+        * * * *\"\nWakeo,Blandine Poite,Number of shipments by geographical line,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by geographical zone,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by port of arrival,0 * * *
+        *\nWakeo,Blandine Poite,Average delay by geographical line (in days),0 * *
+        * *\nWakeo,Blandine Poite,Average delay by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average delays by geographical zone (in days),0 * * * *\nWakeo,Blandine
+        Poite,Delays by freight forwarder,0 * * * *\nWakeo,Blandine Poite,Delays by
+        geographical line,0 * * * *\nWakeo,Blandine Poite,Delays by geographical zone,0
+        * * * *\nWakeo,Blandine Poite,Delays by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Total shipments,0 * * * *\nWakeo,Blandine Poite,Number of shipments
+        by client,0 * * * *\nWakeo,Blandine Poite,Number of shipments by freight forwarder,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by port of departure,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average transit time by geographical zone - in days,0 * * * *\nWakeo,Blandine
+        Poite,Avg transit time by geographical line - in days,0 * * * *\nWakeo,Blandine
+        Poite,Average delay by freight forwarder,0 * * * *\nTada Network,Hendra Wahyudi,Tada
+        Goes to Bali - TADA Redeem,\"0,10,20,30,40,50 * * * *\"\nTada Network,Hendra
+        Wahyudi,Tada Goes to Bali - TADA Wallet Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,Promocodes
+        created for payment drop users,0 0 * * *\nShopBack,Huanyuan,MTD Daily Averages,30
+        2 * * *\ne27,Public Account,No. of Startups By Country Qualifier,45 3 * *
+        *\nHolistics Internal,Thanh Dinh,Cache hit rate,29 7 * * *\nHolistics Internal,Raghavendran
+        Vasudevan,Ragha - Simple Pivot Report,0 7 * * *\nReviewTrackers,Zach Cox,#
+        Review Requests by Account,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Account / # of Locations,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Most Recent Public Review,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Current Month Adds and Subs,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Recently Added,\"0 0,3,6,9,12,15,18,21 * * *\"\nGameAnalytics,Datascience
+        GA,Total new users,0 7 * * *\nGameAnalytics,Datascience GA,New users,0 7 *
+        * *\nGameAnalytics,Datascience GA,Total new users by SDK,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 countries,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 games,0 7 * * *\nGameAnalytics,Datascience GA,Daily
+        hours played,0 7 * * *\nGameAnalytics,Datascience GA,Daily sessions played,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily active users - new vs returning,0
+        7 * * *\nGameAnalytics,Datascience GA,Number of players per number of sessions,0
+        7 * * *\nGameAnalytics,Datascience GA,DAU,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily average number of sessions,0 7 * * *\nGameAnalytics,Datascience GA,DAU
+        by SDK,0 7 * * *\nGameAnalytics,Datascience GA,DAU by top 20 games,0 7 * *
+        *\nGameAnalytics,Datascience GA,Day 1 retention,0 7 * * *\nGameAnalytics,Datascience
+        GA,Day 2 retention,0 7 * * *\nGameAnalytics,Datascience GA,Fraction of payers,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily revenue and payers,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily ARPU and ARPPU,0 7 * * *\nGameAnalytics,Datascience GA,ARPU (USS),0
+        7 * * *\nGameAnalytics,Datascience GA,ARPPU (USS),0 7 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily new users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new
+        users by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by platform,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total new users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total new users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily
+        active users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by
+        game,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by platform,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by top 20 countries,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users: new vs returning,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Total active users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by app version,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,2nd
+        payment conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,ARPPU,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,ARPU,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily ARPU and
+        ARPPU,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily conversion,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Daily revenue and payers,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total IAP revenue,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total payers,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Mean D1,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D2,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D3,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D4,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D5,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D6,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D7,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Retained days,0 10 * * *\nGameAnalytics,Freeform Voodoo,Retention by
+        day,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily average and median session
+        length,0 8 * * *\nGameAnalytics,Freeform Voodoo,Daily hours played per game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily number of sessions,0 8 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily number of sessions per user,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily session length per user,0 10 * * *\nGameAnalytics,Freeform Voodoo,Number
+        of players per number of sessions,0 10 * * *\nGameAnalytics,Freeform Voodoo,Session
+        funnel,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total hours played,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total number of sessions,0 8 * * *\nWorld
+        of Grab,Aayush Garg,Jakarta GE bookings,0 0 * * *\nHolistics Internal,Trang
+        Le,The Typical Feature Usage,\"0 0,6,12,18 * * *\"\nHolistics Internal,Trang
+        Le,Holistic Features Auditing,\"0 0,6,12,18 * * *\"\nHotelQuickly,BI Team,Marketing
+        Cost % by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily TSC,45 3 * * *\nHotelQuickly,BI
+        Team, Sold Out Error Rate % ,0 0 * * *\nHotelQuickly,BI Team,Booking Error
+        Rate%,0 0 * * *\nHotelQuickly,BI Team,Daily Meta Bookings by Channel,0 0 *
+        * *\nHotelQuickly,BI Team,Daily Meta Cost by Channel,0 0 * * *\nHotelQuickly,BI
+        Team,Daily Meta GBV by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily Total
+        MSE PC3,0 0 * * *\nHotelQuickly,BI Team,Session_Conversion,0 0 * * *\nHotelQuickly,BI
+        Team,Sessions,0 0 * * *\nHotelQuickly,BI Team,TA_Trivago_Clicks,0 0 * * *\nHotelQuickly,BI
+        Team,TA_Trivago Conversion,0 0 * * *\nAhaMove,Bi Ai,[General] Orders,0 0 *
+        * *\nGameAnalytics,Datascience GA,Softlaunch games,0 0 * * *\nHotelQuickly,BI
+        Team,Inventory Search Count per Source,0 0 * * *\nHotelQuickly,BI Team,Top
+        Hotels by GBV,0 0 * * *\nHotelQuickly,BI Team,Top 10 storefronts,0 0 * * *\nHotelQuickly,BI
+        Team,MSE GBV by Top 10 Storefronts,\"0 0,12 * * *\"\nHotelQuickly,BI Team,Daily
+        Availability % ,\"0 0,3,6,9,12,15,18,21 * * *\"\nFalconBrick Technologies,sweekar,Activity
+        Progress,0 0 * * *\nHotelQuickly,BI Team,Trivago Conversion Storefront,\"0
+        0,6,12,18 * * *\"\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        5 * * *\nHolistics Internal,Thong Do,Onboarding User Journey,0 1 * * *\nHolistics
+        Internal,Thong Do,Onboarding User Journey,0 10 * * *\nHolistics Internal,Trang
+        Le,Cohort Activities Customers,0 0 * * *\nNoddus,Enrique Espejo,New Operations:
+        CCP,0 * * * *\nHolistics Internal,Cat Vu,Outbound Overall,0 0 * * *\nHotelQuickly,BI
+        Team,In-House Trivago Bidding Tracker,\"0,30 * * * *\"\nCatchThatBus,Harris,CTB
+        Counter Daily Sales Report (CTBX Sales Only),0 16 * * *\nCatchThatBus,Harris,CTB
+        Counter Daily Sales,1 16 * * *\nLINE GAMES,\uAE40\uC131\uC778,LS_CBT_\uC544\uB808\uB098
+        \uB9AC\uADF8\uBCC4 \uB370\uC774\uD130,0 0 * * *\nTada Network,Hendra Wahyudi,Apps
+        Install/UnInstall Android,0 0 * * *\nTada Network,Hendra Wahyudi,Apps Install
+        IOS,0 0 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        10 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0 15 *
+        * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto 21987,43
+        2 * * *\nPT Yesboss Indonesia,Hifandi,# of Incoming Messages To Date - presto
+        21979,5 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Outgoing Messages Bubbles
+        to Date - Presto 21962,10 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Active
+        Users to Date - presto 21987,45 2 * * *\nPT Yesboss Indonesia,Hifandi,# of
+        Incoming Messages To Date - presto 21979,5 19 * * *\nPT Yesboss Indonesia,Hifandi,#
+        of Outgoing Messages Bubbles to Date - Presto 21962,10 19 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,0 0 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,\"0,15,30,45
+        * * * *\"\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto
+        21987,0 21 * * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date -
+        presto 21987,50 2 * * *\nTada Network,Hendra Wahyudi,Capital Life - TADA Wallet
+        Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,\"Daily Sales Report
+        (CTB Products, Categorized, last 7 days)\",\"0,15,30,45 * * * *\"\nCatchThatBus,Harris,Daily
+        Klang Sentral Sales Report Last 7 days (Per Operator),\"0,15,30,45 * * * *\"\ne27,Public
+        Account,Top 100 Pitching Details ,\"0 0,6,12,18 * * *\"\nLINE GAMES,\uD55C\uC218\uC9C4,\uC2E4\uC2DC\uAC04
+        \uC720\uC800 \uB808\uBCA8\uBD84\uD3EC\uB3C4,0 0 * * *\ne27,Public Account,Echelon
+        Top100 2018 Qualifier: General Attendees  ,\"0,10,20,30,40,50 * * * *\"\nTada
+        Network,Hendra Wahyudi,SurveyMegaFinance,0 0 * * *\nHolistics Internal,Huy
+        - Holistics,candis hello,0 0 * * *\n"}
     headers:
       Accept-Ranges: [bytes]
       Content-Disposition: [attachment]
-      Content-Length: ['2049']
+      Content-Length: ['16677']
       Content-Type: [text/csv]
-      Date: ['Wed, 27 Jun 2018 03:57:47 GMT']
-      ETag: ['"1475c6a92fdf03a408f521086bdd9d15"']
-      Last-Modified: ['Wed, 27 Jun 2018 03:57:37 GMT']
+      Date: ['Thu, 28 Jun 2018 07:52:33 GMT']
+      ETag: ['"b717964388312f23c69e3c89d511ba0a"']
+      Last-Modified: ['Thu, 28 Jun 2018 07:47:40 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Fri, 29 Jun 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Sat, 30 Jun 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [Y3hClnUjsQcRbUGu8SPpJL0YqZMCfdqVNFEGoykliDv+vrqcseyD51eOhVm8EkYJ+8UY/ysGris=]
-      x-amz-meta-cache_expired_at: ['2018-06-27T04:07:35+00:00']
-      x-amz-meta-cache_saved_at: ['2018-06-27T03:57:35+00:00']
-      x-amz-request-id: [F7731305E655F42A]
+      x-amz-id-2: [8CtMktqje13BAsANF2ko8AyKPrSVsF72+rGYGixNTV819BgA0UkHjnOIjfNFp1IN23IFXLhHV74=]
+      x-amz-meta-cache_expired_at: ['2018-06-28T07:57:38+00:00']
+      x-amz-meta-cache_saved_at: ['2018-06-28T07:47:38+00:00']
+      x-amz-request-id: [7D48E106D8519E24]
     status: {code: 200, message: OK}
 - request:
     body: null
@@ -891,34 +1227,34 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//queries/get_export_results.json?job_id=19812929&_page_size=120&_page=120
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=19889880&_page_size=120&_page=120
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAAyWKQQ6CMBAA/7JnW7CtgP0MKdslJRGL7KJEwt9Fvc1kZgOWIAuDB14QiRlOQOuU
-        ZwG/QRKZ2ilIOvqX2RdFyreBZUBWTLjMpP67ZqvDGN75Hl6sMY+Fde5slBCLeswtrcct5OVy2C95
-        rMqmt1eq0bgYY11hb4zrys41sYsNauQn7PsHy6Kd1aQAAAA=
+        H4sIAAAAAAAAAyWLUQ6CMBAF77LfthDaCvQypCxLSiIW2QWJhLsL+vcmb2YHliALgwdeEIkZbkDb
+        lGYBv0MUmZopSDz/a7PPspgeA8uArJhwmUn9dc1GhzF80jO8WWMaM2Oq0ioMGEldiXrNDW1nI+TF
+        nfQTfFe0HVGgoi2dqWus787l1pqu6nuLudPIKxzHF7JqZkiqAAAA
     headers:
-      CF-RAY: [4314ff3aeff132f5-HKG]
+      CF-RAY: [431e94128ddd32e9-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:58:45 GMT']
-      ETag: [W/"7cfb816e60c32b05806546a9ccc6fed8"]
+      Date: ['Thu, 28 Jun 2018 07:53:13 GMT']
+      ETag: [W/"823522aaef8f45c02d24ba709c095bdb"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d97ffce83f02fd8cf481c45b12a1722181530071924; expires=Thu,
-          27-Jun-19 03:58:44 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=ai9PSmZqdklyRGJMTkJtZHVpTmdqT2t0dzlSRE5yL3ZiVkxFWi9JNzQycVE1bnRBSjF1QkxKcGVwK2tCNHRIUERuby85M0RvV2dyLzBnaS9jZWdRbVkrOTV3eitRWC9hZjhOZTdCWmFrTGlWcDVOU2dsdEZtbjd5bktEMlZKdDAtLXp6eDV1c2RVUkg3Y1ByMEJTZnZmMEE9PQ%3D%3D--cc128f98b0c5bf0fc9e91266612180eaabac6eea;
+      Set-Cookie: ['__cfduid=df18c73b3a29079e7e8a9db0185fc43331530172393; expires=Fri,
+          28-Jun-19 07:53:13 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=TUV5OUwvRnROekNYWVRyVDJPbHEwZHVETCsyRHFob1lhNDgrS3NnOW94TW5Fcm5xZzdDbXVCRS9WVkhkcjd6QXY5Ylo3K01mRGltSlBWU0Q0Y0hJcTd6WGN1eGkyNTRxMEpodXRzRzJRUGpUUmlZSEFIYUxncjRJUnNoNkhmb1otLTdNOStuUWdUemF2RzJrbE9WQjNxcmc9PQ%3D%3D--fbd46bfe492b063225cdb4c08acd465c3a6e5dca;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [c88fea47-25f3-4aac-8d50-4d2f2547444d]
-      X-Runtime: ['0.119291']
+      X-Request-Id: [97981e5c-277e-45a9-bd04-29cb659370cc]
+      X-Runtime: ['0.100601']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -929,28 +1265,28 @@ interactions:
       Connection: [keep-alive]
       Content-Type: [application/json]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://secure.holistics.io//exports/download?job_id=19812929
+    uri: https://secure.holistics.io/exports/download?job_id=19889880
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180627T035846Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=dbf4046222146532c21bd2be1eb22ee9e27d0304287400eaed7b749cb46e568c">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180628T075313Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=fff2f58f4e1ea52af1d7841c2ee98dfb8c96d4b7caa822b99aeb3d3b2852d9d4">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [4314ff3eda1ca332-HKG]
+      CF-RAY: [431e94149a0c3421-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Wed, 27 Jun 2018 03:58:46 GMT']
+      Date: ['Thu, 28 Jun 2018 07:53:13 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035846Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dbf4046222146532c21bd2be1eb22ee9e27d0304287400eaed7b749cb46e568c']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075313Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=fff2f58f4e1ea52af1d7841c2ee98dfb8c96d4b7caa822b99aeb3d3b2852d9d4']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d54e87be88940a148678838f9fdfd7c391530071925; expires=Thu,
-          27-Jun-19 03:58:45 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=TWtRWVB4T0Jqd3dPYkpmdXhzQVRVLzhocjZxcVhFcjQzbWI4U3R6bk9adUtyK1J3VEFGbGgray9HeC9XZG9iZ1QvbW5rLzI1ZU1uQjV2VGx2TFo4aWlPWkpKeVphWmFobmZSR09YTXQ1b0k5dXBpSHYrdnBkeGxlZnZSZHE3WGQtLWV2K1M1VVhMU0w3TVFTOU5rYWZWRkE9PQ%3D%3D--0d3cd95546bac05f5b3c72b2148164ba2166bd51;
+      Set-Cookie: ['__cfduid=d766ee2cbe2610ce883174c13da15c2d71530172393; expires=Fri,
+          28-Jun-19 07:53:13 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=SEk5bXdNZ2FFN2kycW5DSDFtckYvZy9MN0xkSXpzdWpOUVh3Q3NMMFhEZVVJeDA0Y0FKZjREZ24vcWZGMjlVQkpOdlF4N1Z5VkdSSm5uK3E1Q3Z5VS81N2x2OURCZlJsWnE1V2pNNHRSVXcwUTk0NUFxZGowV3V4eTE3TmZPbHAtLXFRT0hsZExSZzdRc29Tc1NsdWZsNlE9PQ%3D%3D--bd6e5c182f3f070cb8308b92a44894a21e8ebc72;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [38258bc0-edbc-4bde-a686-791cffde2ed3]
-      X-Runtime: ['0.322760']
+      X-Request-Id: [6e96cd64-d384-468d-935a-626794c6b2b4]
+      X-Runtime: ['0.232513']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -960,72 +1296,239 @@ interactions:
       Accept-Encoding: ['gzip, deflate']
       Connection: [keep-alive]
       User-Agent: [python-requests/2.11.1]
-      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+      X-Holistics-Key: [Uf6a7qsFkV147Dmkrcqq]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180627%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180627T035846Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=dbf4046222146532c21bd2be1eb22ee9e27d0304287400eaed7b749cb46e568c
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180628%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180628T075313Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=fff2f58f4e1ea52af1d7841c2ee98dfb8c96d4b7caa822b99aeb3d3b2852d9d4
   response:
-    body: {string: 'id,schedule_id,creator_id,created_at,updated_at,tenant_id,title,source_id,source_type,durations,options
-
-        1,13609,183,2017-09-13 07:28:19.664131,2017-09-13 07:28:19.664131,5,,5176,QueryReport,60,
-
-        2,13613,183,2017-09-13 08:39:15.786219,2017-09-13 08:39:15.786219,5,,244,Dashboard,600,
-
-        7,13728,4490,2017-09-26 03:02:16.062202,2017-09-26 03:02:16.062202,5,Enrollment
-        Report Cache,15404,QueryReport,60,
-
-        86,14515,4567,2017-11-13 17:02:03.800025,2017-11-13 17:02:03.800025,5,"",1639,Dashboard,600,
-
-        139,15740,2792,2018-01-03 03:31:53.336495,2018-01-03 03:31:53.336495,5,hahaha,16939,QueryReport,10,
-
-        91,14722,4567,2017-11-22 16:48:41.053538,2017-11-22 16:48:41.053538,5,,18415,QueryReport,600,
-
-        92,14723,4567,2017-11-22 16:49:18.029832,2017-11-22 16:49:18.029832,5,,18273,QueryReport,600,
-
-        257,19121,5035,2018-04-11 03:55:39.384433,2018-04-11 03:55:53.295455,5,,27456,QueryReport,10,
-
-        144,15925,2792,2018-01-09 07:42:25.20275,2018-01-09 07:42:25.20275,5,,21104,QueryReport,0,
-
-        135,15574,4567,2017-12-25 11:17:45.172323,2017-12-25 11:17:45.172323,5,,18067,QueryReport,600,
-
-        136,15575,4567,2017-12-25 11:18:03.836627,2017-12-25 11:18:03.836627,5,,18067,QueryReport,600,
-
-        137,15577,4833,2017-12-26 02:29:14.185141,2017-12-26 05:01:55.682006,5,Cache
-        trial customers result,20556,QueryReport,60,
-
-        430,21798,182,2018-06-15 15:20:03.343039,2018-06-15 15:20:03.343039,5,,3329,Dashboard,600,
-
-        433,21886,8353,2018-06-19 04:04:42.533473,2018-06-19 04:04:42.533473,5,Holistics
-        Objects Cumulative Growth Breakdown By Object Type cache,6559,QueryReport,120,
-
-        434,21888,8353,2018-06-19 04:07:53.894595,2018-06-19 04:07:53.894595,5,Reports
-        with Details cache,5121,QueryReport,120,
-
-        435,21989,8353,2018-06-20 08:53:48.995796,2018-06-20 08:53:48.995796,5,test
-        test,33324,QueryReport,60,
-
-        436,21990,8353,2018-06-20 08:58:40.378266,2018-06-20 08:58:40.378266,5,test
-        test,33324,QueryReport,60,
-
-        437,21991,8353,2018-06-20 09:00:28.494975,2018-06-20 09:00:28.494975,5,test
-        test,33324,QueryReport,60,
-
-        214,18002,6931,2018-03-19 08:42:32.716443,2018-03-19 08:42:32.716443,5,,21509,QueryReport,60,
-
-'}
+    body: {string: "tenant_name,owner_name,report_title,repeat\nHolistics Demo,Demo
+        Admin,Buyer Total Purchases,0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel,0 4 * * *\nHolistics Demo,Demo Admin,Gross Market Value Growth,0 4
+        * * *\nHolistics Demo,Demo Admin,Listing Pivot Visualization,0 4 * * *\nHolistics
+        Demo,Demo Admin,Listings Exploration,0 4 * * *\nHolistics Demo,Demo Admin,Listings
+        Growth,0 4 * * *\nHolistics Demo,trang@holistics.io,Daily Revenue by Categories
+        This Week,\"0,30 * * * *\"\nHolistics Demo,Holistics Demo,Buyers Demographics,\"0,30
+        * * * *\"\nHolistics Demo,Demo Admin,Daily Users Growth (+ Cumulative),0 4
+        * * *\nHolistics Demo,Holistics Demo,First-time Buyer Cohort Last 6 Months
+        \ ,0 4 * * *\nHolistics Demo,Demo Admin,Marketplace Categories,0 4 * * *\nHolistics
+        Demo,Demo Admin,New/Returned Buyers + GMVs,0 4 * * *\nHolistics Demo,Demo
+        Admin,Registration Growth,0 4 * * *\nHolistics Demo,Demo Admin,Top listings
+        price by city (with staff permission),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Top N Buyers,0 4 * * *\nHolistics Demo,Demo Admin,Transaction Activities,0
+        4 * * *\nHolistics Demo,Holistics Demo,Transaction Growth,0 4 * * *\nHolistics
+        Demo,Demo Admin,Users By Gender,0 4 * * *\nHolistics Demo,Demo Admin,Bookings
+        by Country,0 4 * * *\nHolistics Demo,Demo Admin,Bookings by Type,0 4 * * *\nHolistics
+        Demo,Demo Admin,Booking Status Breakdown by Month,0 4 * * *\nHolistics Demo,Demo
+        Admin,Histogram of Booking Numbers,0 4 * * *\nHolistics Demo,Demo Admin,Driver
+        Registrations - Breakdown by Countries (Monthly),0 4 * * *\nHolistics Demo,Demo
+        Admin,Driver Registrations (Monthly),0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        Signups By Country,0 4 * * *\nHolistics Demo,Demo Admin,Average Booking Waiting
+        Time,0 4 * * *\nHolistics Demo,Demo Admin,Broadcasts by Country,0 4 * * *\nHolistics
+        Demo,Demo Admin,User Segmentation Report,0 4 * * *\nHolistics Demo,Demo Admin,Daily
+        Seats Occupancy,0 4 * * *\nHolistics Demo,Demo Admin,Guests Segmentation Report,0
+        4 * * *\nHolistics Demo,Demo Admin,Room Revenues & Occupancy Rates,0 4 * *
+        *\nHolistics Demo,Demo Admin,Bar Chart Product Listings,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Bar Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        Chart Margin/Volume (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Conversion
+        Funnel (legacy),0 4 * * *\nHolistics Demo,Holistics Demo,Dual Axis Charts
+        (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Funnel chart,0 4 * * *\nHolistics
+        Demo,Huy,Grouping long-tail together - Sales by City,0 4 * * *\nHolistics
+        Demo,Holistics Demo,Line Charts (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Line
+        Chart Users Growth,0 4 * * *\nHolistics Demo,Demo Admin,Listing pivot data
+        table,0 4 * * *\nHolistics Demo,Demo Admin,Mongo Geo Heatmap,0 4 * * *\nHolistics
+        Demo,Demo Admin,Pie Chart Cuisine Types (MongoDB),0 4 * * *\nHolistics Demo,Holistics
+        Demo,Pie Chart - Gross Profit by Brand (legacy),0 4 * * *\nHolistics Demo,Demo
+        Admin,Pie Chart (legacy),0 4 * * *\nHolistics Demo,Demo Admin,Restaurants
+        Rating Geo Heatmap,0 4 * * *\nHolistics Demo,Holistics Demo,Sales Funnel (Funnel
+        Chart),0 4 * * *\nHolistics Demo,Demo Admin,Scatter plot (Margin/Qty),0 4
+        * * *\nHolistics Demo,Holistics Demo,Stacked Area Charts,0 4 * * *\nHolistics
+        Demo,Demo Admin,User usage combination chart,0 4 * * *\nHolistics Demo,Demo
+        Admin,Drill into Order Status,0 4 * * *\nHolistics Demo,Demo Admin,Order by
+        Status,0 4 * * *\nHolistics Demo,Holistics Demo,(3) Dropdown Filter (Manual
+        Entries),0 4 * * *\nHolistics Demo,Holistics Demo,1. Query Templates (Before),0
+        4 * * *\nHolistics Demo,Holistics Demo,2. Query Templates (After),0 4 * *
+        *\nHolistics Demo,Demo Admin,Parent-Child Chaining,0 4 * * *\nHolistics Demo,Demo
+        Admin,Mongo Restaurant Details,0 4 * * *\nHolistics Demo,Holistics Demo,(1)
+        Records Based Access Control,0 4 * * *\nHolistics Demo,Demo Admin,2 Line Charts,0
+        4 * * *\nHolistics Demo,Holistics Demo,Column Dimension Filters,0 4 * * *\nHolistics
+        Demo,Demo Admin,Column-permission: Show/Hide Column for Particular Users,0
+        4 * * *\nHolistics Demo,Demo Admin,Data Explore (Business User),0 4 * * *\nHolistics
+        Demo,Demo Admin,Else Open,0 4 * * *\nHolistics Demo,Demo Admin,Retail User
+        Lookup,0 4 * * *\nHolistics Demo,Demo Admin,Active Holistics Users By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Customer User Growth By Roles,0
+        4 * * *\nHolistics Demo,Demo Admin,Holistics Data Reporting Usage,0 4 * *
+        *\nHolistics Demo,Demo Admin,Holistics Purchased Plan Category,0 4 * * *\nHolistics
+        Demo,Demo Admin,Holistics Weekly Automated Reports Sent,0 4 * * *\nHolistics
+        Demo,Trang Le,Cohort  Sellers Revenue,\"0,30 * * * *\"\nHolistics Demo,Demo
+        Admin,Listings Breakdown by Categories,0 4 * * *\nHolistics Demo,Demo Admin,Drivers
+        With Low Credits,0 4 * * *\nHolistics Demo,Demo Admin,Driver/Bookings Histogram,0
+        4 * * *\nHolistics Demo,Demo Admin,Guest Reservations by Cities,0 4 * * *\nHolistics
+        Demo,Demo Admin,Revenue by Room Types,0 4 * * *\nHolistics Demo,Demo Admin,Bubble
+        chart (profitability),0 4 * * *\nHolistics Demo,Holistics Demo,Line & Column
+        Chart,0 4 * * *\nHolistics Demo,Holistics Demo,Users Demographic by Age Group,0
+        4 * * *\nHolistics Demo,Holistics Demo,(2) Column Based Records Access Control,0
+        4 * * *\nHolistics Demo,Holistics Demo,Buyer Purchase Activities,\"0,30 *
+        * * *\"\nHolistics Demo,Demo Admin,Number of drivers per country,0 4 * * *\nHolistics
+        Demo,Demo Admin,Passengers Registrations,0 4 * * *\nHolistics Demo,Demo Admin,Orders
+        by Payment Method,0 4 * * *\nHolistics Demo,Holistics Demo,Chart Colors,0
+        4 * * *\nHolistics Demo,Demo Admin,Conversion Funnel Hotels Booked,0 4 * *
+        *\nHolistics Demo,Demo Admin,Scatter Charts (legacy),0 4 * * *\nHolistics
+        Demo,Holistics Demo,(1) Dropdown Filters from a Database Table,0 4 * * *\nHolistics
+        Demo,Holistics Demo,(2) Dropdown Filters using SQL,0 4 * * *\nHolistics Demo,Demo
+        Admin,Holistics Data Preparation Usage,0 4 * * *\nJuno,Nhan Le,2.01 MTD,0
+        1 * * *\nJuno,Nhan Le,2.05 Hi\u1EC7u qu\u1EA3 gi\u1EDD c\xF4ng Offline,0 0
+        * * *\nJuno,Nhan Le,2.13 B\xE1o c\xE1o v\u1EADn h\xE0nh theo ASM,0 0 * * 4\nJuno,Nhan
+        Le,3.02 Kh\xE1ch h\xE0ng th\xE2n thi\u1EBFt,0 0 * * *\nJuno,Nhan Le,5.02 B\xE1o
+        c\xE1o Th\u0103ng ti\u1EBFn/Thuy\xEAn chuy\u1EC3n,0 0 * * *\nJuno,Nhan Le,2.04
+        Doanh thu + T\u1ED5ng bill + TB bill,0 0 * * *\nJuno,Nhan Le,2.07 T\u0103ng
+        tr\u01B0\u1EDFng so v\u1EDBi c\xF9ng k\u1EF3 th\xE1ng/n\u0103m tr\u01B0\u1EDBc,0
+        0 * * *\nJuno,Nhan Le,Doanh thu + L\u1EE3i nhu\u1EADn theo k\xEAnh b\xE1n
+        h\xE0ng/nh\xF3m SP,0 0 * * *\nJuno,Nhan Le,L\u1EE3i nhu\u1EADn & Margin,0
+        0 * * *\nHolistics Internal,Huy Tran,Holistics Objects Cumulative Growth Breakdown
+        By Object Type,0 0 19 * *\nHolistics Internal,Huy - Holistics,Reports with
+        Details,0 1 * * *\nHolistics Internal,Phat,Holistics_queries,0 0 * * *\nHolistics
+        Internal,Phat,Holistics_queries,\"0 0 * * 3,4,6\"\nHolistics Internal,Phat,Holistics_queries,0
+        0 11 * *\niAct,Advocatus Kakorozya,Deals Done by Activators,\"0,10,20,30,40,50
+        * * * *\"\nHolistics Internal,Dat Bui,KFIT Current Running Reports,\"0,10,20,30,40,50
+        * * * *\"\nWakeo,Blandine Poite,Number of shipments by geographical line,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by geographical zone,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by port of arrival,0 * * *
+        *\nWakeo,Blandine Poite,Average delay by geographical line (in days),0 * *
+        * *\nWakeo,Blandine Poite,Average delay by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average delays by geographical zone (in days),0 * * * *\nWakeo,Blandine
+        Poite,Delays by freight forwarder,0 * * * *\nWakeo,Blandine Poite,Delays by
+        geographical line,0 * * * *\nWakeo,Blandine Poite,Delays by geographical zone,0
+        * * * *\nWakeo,Blandine Poite,Delays by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Total shipments,0 * * * *\nWakeo,Blandine Poite,Number of shipments
+        by client,0 * * * *\nWakeo,Blandine Poite,Number of shipments by freight forwarder,0
+        * * * *\nWakeo,Blandine Poite,Number of shipments by port of departure,0 *
+        * * *\nWakeo,Blandine Poite,Number of shipments by shipping line,0 * * * *\nWakeo,Blandine
+        Poite,Average transit time by geographical zone - in days,0 * * * *\nWakeo,Blandine
+        Poite,Avg transit time by geographical line - in days,0 * * * *\nWakeo,Blandine
+        Poite,Average delay by freight forwarder,0 * * * *\nTada Network,Hendra Wahyudi,Tada
+        Goes to Bali - TADA Redeem,\"0,10,20,30,40,50 * * * *\"\nTada Network,Hendra
+        Wahyudi,Tada Goes to Bali - TADA Wallet Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,Promocodes
+        created for payment drop users,0 0 * * *\nShopBack,Huanyuan,MTD Daily Averages,30
+        2 * * *\ne27,Public Account,No. of Startups By Country Qualifier,45 3 * *
+        *\nHolistics Internal,Thanh Dinh,Cache hit rate,29 7 * * *\nHolistics Internal,Raghavendran
+        Vasudevan,Ragha - Simple Pivot Report,0 7 * * *\nReviewTrackers,Zach Cox,#
+        Review Requests by Account,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Account / # of Locations,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Most Recent Public Review,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Current Month Adds and Subs,\"0 0,3,6,9,12,15,18,21 * * *\"\nReviewTrackers,Zach
+        Cox,Locations Recently Added,\"0 0,3,6,9,12,15,18,21 * * *\"\nGameAnalytics,Datascience
+        GA,Total new users,0 7 * * *\nGameAnalytics,Datascience GA,New users,0 7 *
+        * *\nGameAnalytics,Datascience GA,Total new users by SDK,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 countries,0 7 * * *\nGameAnalytics,Datascience
+        GA,Total new users by top 20 games,0 7 * * *\nGameAnalytics,Datascience GA,Daily
+        hours played,0 7 * * *\nGameAnalytics,Datascience GA,Daily sessions played,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily active users - new vs returning,0
+        7 * * *\nGameAnalytics,Datascience GA,Number of players per number of sessions,0
+        7 * * *\nGameAnalytics,Datascience GA,DAU,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily average number of sessions,0 7 * * *\nGameAnalytics,Datascience GA,DAU
+        by SDK,0 7 * * *\nGameAnalytics,Datascience GA,DAU by top 20 games,0 7 * *
+        *\nGameAnalytics,Datascience GA,Day 1 retention,0 7 * * *\nGameAnalytics,Datascience
+        GA,Day 2 retention,0 7 * * *\nGameAnalytics,Datascience GA,Fraction of payers,0
+        7 * * *\nGameAnalytics,Datascience GA,Daily revenue and payers,0 7 * * *\nGameAnalytics,Datascience
+        GA,Daily ARPU and ARPPU,0 7 * * *\nGameAnalytics,Datascience GA,ARPU (USS),0
+        7 * * *\nGameAnalytics,Datascience GA,ARPPU (USS),0 7 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily new users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new
+        users by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily new users by platform,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total new users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total new users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily
+        active users,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by app version,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users
+        by country,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by
+        game,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by platform,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users by top 20 countries,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily active users: new vs returning,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Total active users,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by app version,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total active users by platform,0 10 * * *\nGameAnalytics,Freeform Voodoo,2nd
+        payment conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,ARPPU,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,ARPU,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Conversion,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily ARPU and
+        ARPPU,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily conversion,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Daily revenue and payers,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Total IAP revenue,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total payers,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Mean D1,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D2,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D3,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D4,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Mean D5,0 10 * * *\nGameAnalytics,Freeform Voodoo,Mean D6,0 10 * *
+        *\nGameAnalytics,Freeform Voodoo,Mean D7,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Retained days,0 10 * * *\nGameAnalytics,Freeform Voodoo,Retention by
+        day,0 10 * * *\nGameAnalytics,Freeform Voodoo,Daily average and median session
+        length,0 8 * * *\nGameAnalytics,Freeform Voodoo,Daily hours played per game,0
+        10 * * *\nGameAnalytics,Freeform Voodoo,Daily number of sessions,0 8 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily number of sessions per user,0 10 * * *\nGameAnalytics,Freeform
+        Voodoo,Daily session length per user,0 10 * * *\nGameAnalytics,Freeform Voodoo,Number
+        of players per number of sessions,0 10 * * *\nGameAnalytics,Freeform Voodoo,Session
+        funnel,0 10 * * *\nGameAnalytics,Freeform Voodoo,Total hours played,0 10 *
+        * *\nGameAnalytics,Freeform Voodoo,Total number of sessions,0 8 * * *\nWorld
+        of Grab,Aayush Garg,Jakarta GE bookings,0 0 * * *\nHolistics Internal,Trang
+        Le,The Typical Feature Usage,\"0 0,6,12,18 * * *\"\nHolistics Internal,Trang
+        Le,Holistic Features Auditing,\"0 0,6,12,18 * * *\"\nHotelQuickly,BI Team,Marketing
+        Cost % by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily TSC,45 3 * * *\nHotelQuickly,BI
+        Team, Sold Out Error Rate % ,0 0 * * *\nHotelQuickly,BI Team,Booking Error
+        Rate%,0 0 * * *\nHotelQuickly,BI Team,Daily Meta Bookings by Channel,0 0 *
+        * *\nHotelQuickly,BI Team,Daily Meta Cost by Channel,0 0 * * *\nHotelQuickly,BI
+        Team,Daily Meta GBV by Channel,0 0 * * *\nHotelQuickly,BI Team,Daily Total
+        MSE PC3,0 0 * * *\nHotelQuickly,BI Team,Session_Conversion,0 0 * * *\nHotelQuickly,BI
+        Team,Sessions,0 0 * * *\nHotelQuickly,BI Team,TA_Trivago_Clicks,0 0 * * *\nHotelQuickly,BI
+        Team,TA_Trivago Conversion,0 0 * * *\nAhaMove,Bi Ai,[General] Orders,0 0 *
+        * *\nGameAnalytics,Datascience GA,Softlaunch games,0 0 * * *\nHotelQuickly,BI
+        Team,Inventory Search Count per Source,0 0 * * *\nHotelQuickly,BI Team,Top
+        Hotels by GBV,0 0 * * *\nHotelQuickly,BI Team,Top 10 storefronts,0 0 * * *\nHotelQuickly,BI
+        Team,MSE GBV by Top 10 Storefronts,\"0 0,12 * * *\"\nHotelQuickly,BI Team,Daily
+        Availability % ,\"0 0,3,6,9,12,15,18,21 * * *\"\nFalconBrick Technologies,sweekar,Activity
+        Progress,0 0 * * *\nHotelQuickly,BI Team,Trivago Conversion Storefront,\"0
+        0,6,12,18 * * *\"\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        5 * * *\nHolistics Internal,Thong Do,Onboarding User Journey,0 1 * * *\nHolistics
+        Internal,Thong Do,Onboarding User Journey,0 10 * * *\nHolistics Internal,Trang
+        Le,Cohort Activities Customers,0 0 * * *\nNoddus,Enrique Espejo,New Operations:
+        CCP,0 * * * *\nHolistics Internal,Cat Vu,Outbound Overall,0 0 * * *\nHotelQuickly,BI
+        Team,In-House Trivago Bidding Tracker,\"0,30 * * * *\"\nCatchThatBus,Harris,CTB
+        Counter Daily Sales Report (CTBX Sales Only),0 16 * * *\nCatchThatBus,Harris,CTB
+        Counter Daily Sales,1 16 * * *\nLINE GAMES,\uAE40\uC131\uC778,LS_CBT_\uC544\uB808\uB098
+        \uB9AC\uADF8\uBCC4 \uB370\uC774\uD130,0 0 * * *\nTada Network,Hendra Wahyudi,Apps
+        Install/UnInstall Android,0 0 * * *\nTada Network,Hendra Wahyudi,Apps Install
+        IOS,0 0 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0
+        10 * * *\nHolistics Demo,Demo Admin,Buyer Cohort Retention Analysis,0 15 *
+        * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto 21987,43
+        2 * * *\nPT Yesboss Indonesia,Hifandi,# of Incoming Messages To Date - presto
+        21979,5 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Outgoing Messages Bubbles
+        to Date - Presto 21962,10 20 * * *\nPT Yesboss Indonesia,Hifandi,# of Active
+        Users to Date - presto 21987,45 2 * * *\nPT Yesboss Indonesia,Hifandi,# of
+        Incoming Messages To Date - presto 21979,5 19 * * *\nPT Yesboss Indonesia,Hifandi,#
+        of Outgoing Messages Bubbles to Date - Presto 21962,10 19 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,0 0 * * *\nHolistics
+        Demo,Demo Admin,Listings Report - Second Hand Goods Marketplace,\"0,15,30,45
+        * * * *\"\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date - presto
+        21987,0 21 * * *\nPT Yesboss Indonesia,Hifandi,# of Active Users to Date -
+        presto 21987,50 2 * * *\nTada Network,Hendra Wahyudi,Capital Life - TADA Wallet
+        Users,\"0,10,20,30,40,50 * * * *\"\nCatchThatBus,Harris,\"Daily Sales Report
+        (CTB Products, Categorized, last 7 days)\",\"0,15,30,45 * * * *\"\nCatchThatBus,Harris,Daily
+        Klang Sentral Sales Report Last 7 days (Per Operator),\"0,15,30,45 * * * *\"\ne27,Public
+        Account,Top 100 Pitching Details ,\"0 0,6,12,18 * * *\"\nLINE GAMES,\uD55C\uC218\uC9C4,\uC2E4\uC2DC\uAC04
+        \uC720\uC800 \uB808\uBCA8\uBD84\uD3EC\uB3C4,0 0 * * *\ne27,Public Account,Echelon
+        Top100 2018 Qualifier: General Attendees  ,\"0,10,20,30,40,50 * * * *\"\nTada
+        Network,Hendra Wahyudi,SurveyMegaFinance,0 0 * * *\nHolistics Internal,Huy
+        - Holistics,candis hello,0 0 * * *\n"}
     headers:
       Accept-Ranges: [bytes]
       Content-Disposition: [attachment]
-      Content-Length: ['2049']
+      Content-Length: ['16677']
       Content-Type: [text/csv]
-      Date: ['Wed, 27 Jun 2018 03:58:47 GMT']
-      ETag: ['"1475c6a92fdf03a408f521086bdd9d15"']
-      Last-Modified: ['Wed, 27 Jun 2018 03:57:37 GMT']
+      Date: ['Thu, 28 Jun 2018 07:53:15 GMT']
+      ETag: ['"b717964388312f23c69e3c89d511ba0a"']
+      Last-Modified: ['Thu, 28 Jun 2018 07:47:40 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Fri, 29 Jun 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Sat, 30 Jun 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [aQJ1RNN2B1MinbY3Ncz5ujKOKN5o82g3xabv+ojWaIPHCl7KpTINk+1X5b+cu+/+q6ZzKRdfiqQ=]
-      x-amz-meta-cache_expired_at: ['2018-06-27T04:07:35+00:00']
-      x-amz-meta-cache_saved_at: ['2018-06-27T03:57:35+00:00']
-      x-amz-request-id: [2E7CDBBB020963CA]
+      x-amz-id-2: [xfL+6fxTZypi18zyt2hLHfxvrx0eOjYyEk/Sdjnr73Ip939qHFESUNavw38XD/rFHnBH9PFp4KY=]
+      x-amz-meta-cache_expired_at: ['2018-06-28T07:57:38+00:00']
+      x-amz-meta-cache_saved_at: ['2018-06-28T07:47:38+00:00']
+      x-amz-request-id: [D04437196AD28F4D]
     status: {code: 200, message: OK}
 version: 1

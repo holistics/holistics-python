@@ -7,7 +7,7 @@ import time
 class HolisticsAPI:
     data = False
     path = None
-    url = 'https://secure.holistics.io/'
+    url = 'https://secure.holistics.io'
     headers = {
             "Accept":"application/json", 
             "Content-Type":"application/json",
@@ -28,12 +28,13 @@ class HolisticsAPI:
         return {'api_key': self.headers['X-Holistics-Key'], 'path': self.path, 'url': self.url, }
 
     def GetURL(self, tail_url, params=None):
-        res = requests.get(self.url + tail_url, params = params, headers = self.headers)
-        if res.status_code != 200:
-            print ("Error " + str(res.status_code))
+        try:
+            res = requests.get(self.url + tail_url, params = params, headers = self.headers)
+            res.raise_for_status()
+        except requests.exceptions.HTTPError as err:
+            print (err)
             return 0
-        else:
-            return res
+        return res
         
 
     def SubmitReport (self, report_id, filters=None):
@@ -59,12 +60,13 @@ class HolisticsAPI:
         res = self.GetURL(tail_url, self.page)
         if res!=0:
             res = res.json()
-            if res['status'] == 'already_existed':
-                self.page['job_id'] = str(res['job_id'])
-            if res['status'] == 'failure':
-                print ("Status: Failure")
-                return 0
             while (res['status'] != 'success'):
+                if res['status'] == 'already_existed':
+                    self.page['job_id'] = str(res['job_id'])
+                    break
+                if res['status'] == 'failure':
+                    print ("Status: Failure")
+                    return 0
                 res = self.GetURL(tail_url, self.page).json()
                 time.sleep(1)
             print ("Success")
