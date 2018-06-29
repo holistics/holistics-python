@@ -34,6 +34,7 @@ Documentation
 from holistics import HolisticsAPI
 ```
 
+
 **2. Initalize HolisticsAPI class:**
 ```
 obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', path = 'demo.holistics.io')
@@ -42,7 +43,8 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', path = 'demo.holistics.io')
     - [How to get API-key](https://docs.holistics.io/api/)
 - **url (str) (optional):** Chang to other Holistics domain if you aren't using https://secure.holistics.io.  
     Ex: https://demo.holistics.io   
-    
+
+
 **3. Export data:**
 ```
 my_dataframe = obj.ExportData(report_id='331235', filter_dict={'date': '2017-04-28'}, 
