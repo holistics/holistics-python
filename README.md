@@ -12,11 +12,9 @@ result.ExportData(report_id='3123574', path='C:/output.csv')
 ```
 
 # Requirement
----------------
 - Python's version: >= 3
 
 # Installation
----------------
 Module can be installed with pip:
 ```
 $ pip install holistics
@@ -28,7 +26,6 @@ $ python setup.py install
 ```
 
 # Documentation
----------------
 ## **1. Import module**
 ```
 from holistics import HolisticsAPI
