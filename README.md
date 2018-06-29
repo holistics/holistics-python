@@ -11,11 +11,11 @@ result = HolisticsAPI(api_key='Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=')
 result.ExportData(report_id='3123574', path='C:/output.csv')
 ```
 
-Requirement
+# Requirement
 ---------------
 - Python's version: >= 3
 
-Installation
+# Installation
 ---------------
 Module can be installed with pip:
 ```
@@ -27,15 +27,15 @@ $ git clone git clone git://github.com/holistics/holistics-python.git
 $ python setup.py install
 ```
 
-Documentation
+# Documentation
 ---------------
-**1. Import module**
+## **1. Import module**
 ```
 from holistics import HolisticsAPI
 ```  
 
-**2. Initalize HolisticsAPI class:**  
-    **HolisticsAPI(api_key, url)**
+## **2. Initalize HolisticsAPI class:**  
+**HolisticsAPI(api_key, url)**
 ```
 obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', url = 'demo.holistics.io')
 ```
@@ -44,8 +44,8 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', url = 'demo.holistics.io')
 - **url (str) (optional):** Chang to other Holistics domain if you aren't using https://secure.holistics.io.  
     - Ex: https://demo.holistics.io   
 
-**3. Export data:**
-    **ExportData (report_id, filter_dict, _page_size, _page)**  
+## **3. Export data:**
+**ExportData (report_id, filter_dict, _page_size, _page)**  
 ```
     my_dataframe = obj.ExportData(report_id='331235', filter_dict={'date': '2017-04-28'}, 
                                   path = 'C:/output.csv', _page_size = 12, _page = 5)
