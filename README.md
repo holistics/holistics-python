@@ -45,7 +45,8 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', path = 'demo.holistics.io')
     
 **3. Export data:**
 ```
-my_dataframe = obj.ExportData(report_id='331235', filter_dict={'date': '2017-04-28'}, path = 'C:/output.csv', _page_size = 12, _page = 5)
+my_dataframe = obj.ExportData(report_id='331235', filter_dict={'date': '2017-04-28'}, 
+                              path = 'C:/output.csv', _page_size = 12, _page = 5)
 ```
 **ExportData (report_id, filter_dict, _page_size, _page)**
 - **report_id (str):** id of report. Collect from URL.  
