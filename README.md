@@ -10,7 +10,7 @@ from holistics import HolisticsAPI
 result = HolisticsAPI(api_key='Uf6aeraergFkV147Dmkrergga4EMLU2xhD17JDF13jM=')
 result.ExportData(report_id='3123574', path='C:/output.csv')
 ```
-
+-
 Requirement
 ---------------
 - Python's version: >= 3
@@ -33,8 +33,8 @@ Documentation
 ```
 from holistics import HolisticsAPI
 ```
-
-
+<br/>
+<br/>
 **2. Initalize HolisticsAPI class:**
 ```
 obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', path = 'demo.holistics.io')
@@ -43,8 +43,8 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', path = 'demo.holistics.io')
     - [How to get API-key](https://docs.holistics.io/api/)
 - **url (str) (optional):** Chang to other Holistics domain if you aren't using https://secure.holistics.io.  
     Ex: https://demo.holistics.io   
-
-
+<br/>
+<br/>
 **3. Export data:**
 ```
 my_dataframe = obj.ExportData(report_id='331235', filter_dict={'date': '2017-04-28'}, 
