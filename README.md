@@ -55,7 +55,7 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', url = 'demo.holistics.io')
             'tenant': 'holistics',
             'date': '2017-04-28'
         }
-- **path (str) (optional):** If you want to store export data to file, instead of return DataFrame object, set path variable.  
+- **path (str) (optional):** If you want to store export data to file, set path variable.  
     - Ex: D:/Data/output.csv
 - **_page_size (int) (optional):** Set the page size of the response.  
     - Default value: 10000000
