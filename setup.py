@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="holistics",
-    version="0.0a8",
+    version="0.0a10",
     author="Phat Vo",
     author_email="phat.vo@holistics.io",
     description="Package to export report's data from holistics.io",
@@ -21,5 +21,7 @@ setuptools.setup(
 	install_requires=[
         "requests", "pandas",
     ],
+	test_suite='nose.collector',
+    tests_require=['nose'],
     python_requires='>= 3, < 4',
 )
