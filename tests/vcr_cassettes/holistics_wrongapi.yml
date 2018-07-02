@@ -14,21 +14,21 @@ interactions:
     body: {string: 'Holistics::InvalidAuthenticationToken'}
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [433e71a66d77a356-HKG]
+      CF-RAY: [433fd620ff59a31a-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 04:42:07 GMT']
+      Date: ['Mon, 02 Jul 2018 08:45:29 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d80679c67beb8a76049d918ef566e0d4b1530506527; expires=Tue,
-          02-Jul-19 04:42:07 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d9f1eccb1e0e6e947745519b9dc8a30151530521129; expires=Tue,
+          02-Jul-19 08:45:29 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [422 Unprocessable Entity]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [37d5d9ba-d29f-4bc8-b5df-68d4cca785cf]
-      X-Runtime: ['0.041498']
+      X-Request-Id: [bd9b4214-c84b-4aee-a1ff-16e254a50831]
+      X-Runtime: ['0.033292']
       X-XSS-Protection: [1; mode=block]
     status: {code: 422, message: Unprocessable Entity}
 version: 1
