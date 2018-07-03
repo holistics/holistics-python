@@ -1,93 +1,77 @@
 from holistics import HolisticsAPI
 import pandas as pd
-from pytest import fixture
 import vcr
+import requests
+import pytest
 
 my_vcr = vcr.VCR(
 record_mode='once',
 )
 
-api_key_correct = '+msHa4EMLU2xhD17JDF13jM='
-api_key_wrong = '123556`41'
-path = 'output'
+api_key_correct = 'api_key_correct'
+report_id_correct = 'report_id_correct'
+report_id_correct2 = 'report_id_correct2'
+job_id_correct = 'job_id_correct'	
+
+api_key_wrong = 'api_key_wrong'
+path = 'path'
 url = 'secure.holistics.io'
-report_id_correct = '338741'
-report_id_wrong = 'aehnaga'
-job_id_correct = '198884121'
-job_id_wrong = 'eargaerg'
+report_id_wrong = 'report_id_wrong'
+job_id_wrong = 'job_id_wrong'
 path_correct = 'output.csv'
 path_wrong = 'C:/&^(@#,ga.tacv'
 filters = {'twqdest': 'teqwdst'}
 
-def test_holistics_info():
-	holistics_instance = HolisticsAPI(api_key_correct,path,url)
-	response = holistics_instance.info()
-	assert isinstance(response, dict)
-	assert response['api_key'] == api_key_correct, "The api_key should be in the response"
-	assert response['path'] == path, "The path should be in the response"
-	assert response['url'] == url, "The url should be in the response"
-
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_GetURL_correct():
-	tail_url = '/queries/'+str(report_id_correct)+'/submit_export.csv'
+def test_submit_export_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.GetURL(tail_url)
-	assert response.status_code == 200, "Status code should be 200"
-
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics_wrong.yml')
-def test_GetURL_wrong():
-	tail_url = '/queries/'+str(report_id_wrong)+'/submit_export.csv'
-	holistics_instance = HolisticsAPI(api_key_wrong)
-	response = holistics_instance.GetURL(tail_url, filters)
-	assert response == 0, "Response must be error (return 0)"
-
+	response = holistics_instance.submit_export(report_id_correct, filters)
+	assert isinstance(response, str), "Result must be job_id (str)"
+	
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_SubmitReport_correct():
+def test_submit_export_wrong():
+	with pytest.raises(requests.exceptions.HTTPError):
+		holistics_instance = HolisticsAPI(api_key_correct)
+		holistics_instance.submit_export(report_id_wrong, filters)
+	
+@my_vcr.use_cassette('tests/vcr_cassettes/holistics_wrongapi.yml')
+def test_submit_export_wrong2(): #test with wrong API
+	with pytest.raises(requests.exceptions.HTTPError):
+		holistics_instance = HolisticsAPI(api_key_wrong)
+		holistics_instance.submit_export(report_id_correct2, filters)
+	
+@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
+def test_get_export_results_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.SubmitReport(report_id_correct, filters)
-	assert response == 1, "job_id must be generated"
+	response = holistics_instance.get_export_results(job_id_correct, 120, 120)
+	assert response==1, "Result must be 1"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_SubmitReport_wrong():
+def test_get_export_results_wrong(): #not-exist job_id
+	with pytest.raises((requests.exceptions.HTTPError,RuntimeError)):
+		holistics_instance = HolisticsAPI(api_key_correct)
+		holistics_instance.get_export_results(job_id_wrong, 120, 120)
+	
+@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
+def test_download_results_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.SubmitReport(report_id_wrong, filters)
-	assert response == 0, "Response must be error"
+	response = holistics_instance.download_results(job_id_correct, path_correct)
+	assert isinstance(response, pd.DataFrame), "Result must be DataFrame object"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_GetExportResults_correct():
+def test_download_results_wrong(): #not-exist job_id
+	with pytest.raises((requests.exceptions.HTTPError,pd.errors.ParserError)):
+		holistics_instance = HolisticsAPI(api_key_correct)
+		holistics_instance.download_results(job_id_wrong, path_wrong)
+		
+@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
+def test_export_data_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.GetExportResults(job_id_correct, 120, 120)
-	assert response == 1, "Response must be 1"
+	response = holistics_instance.export_data(report_id_correct2,filters=filters)
+	assert isinstance(response, pd.DataFrame), "Result must be DataFrame object"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_GetExportResults_wrong():
-	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.GetExportResults(job_id_wrong, 120, 120)
-	assert response == 0, "Response must be 0"
-
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_DownloadResults_correct():
-	holistics_instance = HolisticsAPI(api_key_correct,path)
-	holistics_instance.page['job_id'] = job_id_correct
-	response = holistics_instance.DownloadResults()
-	assert holistics_instance.data == True, "Response must be 1 or DataFrame object"
-
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_DownloadResults_wrong():
-	holistics_instance = HolisticsAPI(api_key_correct,path=path_wrong)
-	holistics_instance.page['job_id'] = job_id_wrong
-	response = holistics_instance.DownloadResults()
-	assert response is None or response == 0, "Response must be 0"
-
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_ExportData_correct():
-	holistics_instance = HolisticsAPI(api_key_correct)
-	response = holistics_instance.ExportData(report_id_correct,filters)
-	assert holistics_instance.data == True, "Response must be 1 or DataFrame object"
-
-@my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
-def test_ExportData_wrong():
-	holistics_instance = HolisticsAPI(api_key_correct,path=path_correct)
-	response = holistics_instance.ExportData(report_id_wrong,filters)
-	assert response is None or response == 0, "Response must be 0"
-
+def test_export_data_wrong(): #not-exist report_id
+	with pytest.raises((requests.exceptions.HTTPError, RuntimeError, pd.errors.ParserError)):
+		holistics_instance = HolisticsAPI(api_key_correct)
+		holistics_instance.export_data(report_id_wrong,filters=filters)

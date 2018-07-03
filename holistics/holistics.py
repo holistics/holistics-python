@@ -5,95 +5,92 @@ import pandas as pd
 import time
 
 class HolisticsAPI:
-    data = False
-    path = None
-    url = 'https://secure.holistics.io'
-    headers = {
+    def __init__(self, api_key, url = None):
+        self.headers = {
             "Accept":"application/json", 
             "Content-Type":"application/json",
-            "X-Holistics-Key": None}
-    page={
-            'job_id': None,
-            '_page_size': '10000000',
-            '_page': '10000000'}
-
-    def __init__(self, api_key, path = None, url = None):
+            "X-Holistics-Key": "api_key"}
         self.headers['X-Holistics-Key'] = api_key
         if url is not None:
             self.url = url
-        if path is not None:
-            self.path = path
-
-    def info(self):
-        return {'api_key': self.headers['X-Holistics-Key'], 'path': self.path, 'url': self.url, }
-
-    def GetURL(self, tail_url, params=None):
-        try:
-            res = requests.get(self.url + tail_url, params = params, headers = self.headers)
-            res.raise_for_status()
-        except requests.exceptions.HTTPError as err:
-            print (err)
-            return 0
-        return res
+        else:
+            self.url = 'https://secure.holistics.io'   
         
 
-    def SubmitReport (self, report_id, filters=None):
+    def get_url(self, tail_url, params=None):
+        res = requests.get(self.url + tail_url, params = params, headers = self.headers)
+        res.raise_for_status()
+        return res
+
+    def submit_export (self, report_id, filters=None):
         print ("Submitting export request... ", end='')
         tail_url = '/queries/'+str(report_id)+'/submit_export.csv'
-        res = self.GetURL(tail_url, filters)
-        if res!=0:
+        try:
+            res = self.get_url(tail_url, filters)
             res = res.json()
             print ("Success")
-            self.page['job_id'] = str(res['job_id'])
-            return 1
-        else:
-            return 0
+            return str(res['job_id'])
+        except requests.exceptions.HTTPError as err:
+            print ("Fail to submit export")
+            raise err
 
-    def GetExportResults(self, job_id, _page_size = None, _page = None):
+    def get_export_results(self, job_id, _page_size = None, _page = None):
+        page={
+            "job_id": "job_id",
+            "_page_size": "10000000",
+            "_page": "10000000"}
         print ("Getting export results... ", end='')
         tail_url = '/queries/get_export_results.json'
-        self.page['job_id']=job_id
+        page['job_id']=str(job_id)
         if _page_size is not None:
-            self.page['_page_size']=_page_size
+            page['_page_size']=str(_page_size)
         if _page is not None:
-            self.page['_page']=_page
-        res = self.GetURL(tail_url, self.page)
-        if res!=0:
+            page['_page']=str(_page)
+        try:
+            res = self.get_url(tail_url, page)
             res = res.json()
             while (res['status'] != 'success'):
                 if res['status'] == 'already_existed':
-                    self.page['job_id'] = str(res['job_id'])
-                    break
+                    page['job_id'] = str(res['job_id'])
                 if res['status'] == 'failure':
                     print ("Status: Failure")
-                    return 0
-                res = self.GetURL(tail_url, self.page).json()
+                    raise RuntimeError('Status of request is Failure')
+                res = self.get_url(tail_url, page).json()
                 time.sleep(1)
             print ("Success")
             return 1
-        else:
-            return 0
+        except requests.exceptions.HTTPError as err:
+            print ("Fail to get export results")
+            raise err
         
-    def DownloadResults(self):
+    def download_results(self, job_id, path):
+        path = str(path)
+        job_id = str(job_id)
         print ("Downloading results... ", end='')
-        tail_url = '/exports/download?job_id=' + self.page['job_id']
-        res = self.GetURL(tail_url)
-        if res!=0:
-            text = str(res.content, 'utf-8', errors='replace')
+        tail_url = '/exports/download?job_id=' + job_id   
+        try:
+            res = self.get_url(tail_url)
+        except requests.exceptions.HTTPError as err:
+            print ("Fail to submit download request")
+            raise err
+        text = str(res.content, 'utf-8', errors='replace')
+        try:
             data = pd.read_csv(io.StringIO(text))
-            self.data = True
-            print ("Success")
-            if self.path == None:
+        except pd.errors.ParserError as err:
+            print ("Fail to parsed result as CSV")
+            raise err
+        if path == None:
+            return data
+        else:
+            try:
+                data.to_csv(path, encoding='utf-8', index=False)
+                print ("Export to file successed!")
                 return data
-            else:
-                try:
-                    data.to_csv(self.path, encoding='utf-8', index=False)
-                    print ("Export to file successed!")
-                except:
-                    print ("Can't export file to " + self.path)
-        
+            except:
+                print ("Can't export file to " + path)    
 
-    def ExportData(self,report_id,filters=None, page_size=None, page=None):
-        self.SubmitReport(report_id, filters)
-        self.GetExportResults(self.page['job_id'],page_size,page)
-        return self.DownloadResults()
+    def export_data(self,report_id, path=None,filters=None, page_size=None, page=None):
+        job_id = self.submit_export(report_id, filters)
+        temp = self.get_export_results(job_id,page_size,page)
+        res = self.download_results(job_id,path)
+        return res
