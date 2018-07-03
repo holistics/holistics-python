@@ -1,4 +1,4 @@
-Holistics module: export data easier
+Holistics package: export data easier
 =========================
 This package is made to help Python user export report data from Holistics.io, save as DataFrame object or .CSV file without manually log in.
 
@@ -6,7 +6,7 @@ This package is made to help Python user export report data from Holistics.io, s
 - Python's version: >= 3
 
 # Installation
-Module can be installed with pip:
+Package can be installed with pip:
 ```
 $ pip install holistics
 ```
