@@ -9,26 +9,154 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [123556`41]
     method: GET
-    uri: https://secure.holistics.io/queries/33874/submit_export.csv?twqdest=teqwdst
+    uri: https://secure.holistics.io/queries/report_id_correct2/submit_export.csv?twqdest=teqwdst
   response:
     body: {string: 'Holistics::InvalidAuthenticationToken'}
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [434689ed1895a31a-HKG]
+      CF-RAY: [4346b8195e90a314-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Tue, 03 Jul 2018 04:16:48 GMT']
+      Date: ['Tue, 03 Jul 2018 04:48:19 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d99f7e8b4240ca1dcfd28198b5114cb131530591408; expires=Wed,
-          03-Jul-19 04:16:48 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d905e08ebdc8703b269fe5ff50d94d9281530593299; expires=Wed,
+          03-Jul-19 04:48:19 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [422 Unprocessable Entity]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [648d4623-1207-4ff8-8fda-5e980653f2f5]
-      X-Runtime: ['0.027998']
+      X-Request-Id: [3991339f-492f-41a9-bb5c-d1f1d8dff4be]
+      X-Runtime: ['0.045374']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 422, message: Unprocessable Entity}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+      X-Holistics-Key: [123556`41]
+    method: GET
+    uri: https://secure.holistics.io/queries/report_id_correct2/submit_export.csv?twqdest=teqwdst
+  response:
+    body: {string: 'Holistics::InvalidAuthenticationToken'}
+    headers:
+      CF-Cache-Status: [MISS]
+      CF-RAY: [4346b9d25bf433f1-HKG]
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/plain; charset=utf-8]
+      Date: ['Tue, 03 Jul 2018 04:49:30 GMT']
+      Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
+      Server: [cloudflare]
+      Set-Cookie: ['__cfduid=da8033142675576d7cad793a6c6e5e1681530593369; expires=Wed,
+          03-Jul-19 04:49:29 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Status: [422 Unprocessable Entity]
+      Vary: [Accept-Encoding]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Request-Id: [a9050369-d1d8-4dae-9fc8-f1d6adc2a609]
+      X-Runtime: ['0.038577']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 422, message: Unprocessable Entity}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+      X-Holistics-Key: [123556`41]
+    method: GET
+    uri: https://secure.holistics.io/queries/report_id_correct2/submit_export.csv?twqdest=teqwdst
+  response:
+    body: {string: 'Holistics::InvalidAuthenticationToken'}
+    headers:
+      CF-Cache-Status: [MISS]
+      CF-RAY: [4346bb0c8b72a344-HKG]
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/plain; charset=utf-8]
+      Date: ['Tue, 03 Jul 2018 04:50:20 GMT']
+      Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
+      Server: [cloudflare]
+      Set-Cookie: ['__cfduid=d74918c5e34e272606f4c857e357e89a41530593420; expires=Wed,
+          03-Jul-19 04:50:20 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Status: [422 Unprocessable Entity]
+      Vary: [Accept-Encoding]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Request-Id: [f8de7b52-42cd-49ae-ab52-7870b7f29ee2]
+      X-Runtime: ['0.035975']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 422, message: Unprocessable Entity}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+      X-Holistics-Key: [123556`41]
+    method: GET
+    uri: https://secure.holistics.io/queries/report_id_correct2/submit_export.csv?twqdest=teqwdst
+  response:
+    body: {string: 'Holistics::InvalidAuthenticationToken'}
+    headers:
+      CF-Cache-Status: [MISS]
+      CF-RAY: [4346bde0fc37a320-HKG]
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/plain; charset=utf-8]
+      Date: ['Tue, 03 Jul 2018 04:52:16 GMT']
+      Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
+      Server: [cloudflare]
+      Set-Cookie: ['__cfduid=d525842e475d6ceaeeb6f631a2742c6981530593536; expires=Wed,
+          03-Jul-19 04:52:16 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Status: [422 Unprocessable Entity]
+      Vary: [Accept-Encoding]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Request-Id: [857d6308-6953-4369-935f-62b749406590]
+      X-Runtime: ['0.040879']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 422, message: Unprocessable Entity}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+      X-Holistics-Key: [api_key_wrong]
+    method: GET
+    uri: https://secure.holistics.io/queries/report_id_correct2/submit_export.csv?twqdest=teqwdst
+  response:
+    body: {string: 'Holistics::InvalidAuthenticationToken'}
+    headers:
+      CF-Cache-Status: [MISS]
+      CF-RAY: [4346c2c4691132e9-HKG]
+      Cache-Control: [no-cache]
+      Connection: [keep-alive]
+      Content-Type: [text/plain; charset=utf-8]
+      Date: ['Tue, 03 Jul 2018 04:55:36 GMT']
+      Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
+      Server: [cloudflare]
+      Set-Cookie: ['__cfduid=d01bd249395c925663c8d60646d0a4c9e1530593736; expires=Wed,
+          03-Jul-19 04:55:36 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Status: [422 Unprocessable Entity]
+      Vary: [Accept-Encoding]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Request-Id: [98561b73-014d-472f-82b2-06218d89738f]
+      X-Runtime: ['0.034142']
       X-XSS-Protection: [1; mode=block]
     status: {code: 422, message: Unprocessable Entity}
 version: 1

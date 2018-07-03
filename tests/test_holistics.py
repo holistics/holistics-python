@@ -8,15 +8,16 @@ my_vcr = vcr.VCR(
 record_mode='once',
 )
 
-api_key_correct = 'Uf6a7qsFkV147Dmkrcqq+msHa4EMLU2xhD17JDF13jM='
-api_key_wrong = '123556`41'
-path = 'output'
+api_key_correct = 'api_key_correct'
+report_id_correct = 'report_id_correct'
+report_id_correct2 = 'report_id_correct2'
+job_id_correct = 'job_id_correct'	
+
+api_key_wrong = 'api_key_wrong'
+path = 'path'
 url = 'secure.holistics.io'
-report_id_correct = '33874'
-report_id_correct2 = '34412'
-report_id_wrong = 'aehnaga'
-job_id_correct = '19888412'	
-job_id_wrong = 'eargaerg'
+report_id_wrong = 'report_id_wrong'
+job_id_wrong = 'job_id_wrong'
 path_correct = 'output.csv'
 path_wrong = 'C:/&^(@#,ga.tacv'
 filters = {'twqdest': 'teqwdst'}
@@ -37,7 +38,7 @@ def test_submit_export_wrong():
 def test_submit_export_wrong2(): #test with wrong API
 	with pytest.raises(requests.exceptions.HTTPError):
 		holistics_instance = HolisticsAPI(api_key_wrong)
-		holistics_instance.submit_export(report_id_correct, filters)
+		holistics_instance.submit_export(report_id_correct2, filters)
 	
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_get_export_results_correct(): #all correct

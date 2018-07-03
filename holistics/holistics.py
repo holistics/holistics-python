@@ -65,8 +65,9 @@ class HolisticsAPI:
         
     def download_results(self, job_id, path):
         path = str(path)
+        job_id = str(job_id)
         print ("Downloading results... ", end='')
-        tail_url = '/exports/download?job_id=' + job_id        
+        tail_url = '/exports/download?job_id=' + job_id   
         try:
             res = self.get_url(tail_url)
         except requests.exceptions.HTTPError as err:
@@ -90,6 +91,6 @@ class HolisticsAPI:
 
     def export_data(self,report_id, path=None,filters=None, page_size=None, page=None):
         job_id = self.submit_export(report_id, filters)
-        self.get_export_results(job_id,page_size,page)
+        temp = self.get_export_results(job_id,page_size,page)
         res = self.download_results(job_id,path)
         return res
