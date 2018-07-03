@@ -58,6 +58,7 @@ class HolisticsAPI:
                 res = self.get_url(tail_url, page).json()
                 time.sleep(1)
             print ("Success")
+            return 1
         except requests.exceptions.HTTPError as err:
             print ("Fail to get export results")
             raise err

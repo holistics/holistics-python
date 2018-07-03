@@ -8,7 +8,7 @@ my_vcr = vcr.VCR(
 record_mode='once',
 )
 
-api_key_correct = '+msHa4EMLU2xhD17JDF13jM='
+api_key_correct = 'Uf6a7qsFkV147Dmkrcqq+msHa4EMLU2xhD17JDF13jM='
 api_key_wrong = '123556`41'
 path = 'output'
 url = 'secure.holistics.io'
@@ -24,7 +24,8 @@ filters = {'twqdest': 'teqwdst'}
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_submit_export_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	holistics_instance.submit_export(report_id_correct, filters)
+	response = holistics_instance.submit_export(report_id_correct, filters)
+	assert isinstance(response, str), "Result must be job_id (str)"
 	
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_submit_export_wrong():
@@ -41,8 +42,9 @@ def test_submit_export_wrong2(): #test with wrong API
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_get_export_results_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	holistics_instance.get_export_results(job_id_correct, 120, 120)
-	
+	response = holistics_instance.get_export_results(job_id_correct, 120, 120)
+	assert response==1, "Result must be 1"
+
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_get_export_results_wrong(): #not-exist job_id
 	with pytest.raises((requests.exceptions.HTTPError,RuntimeError)):
@@ -52,8 +54,9 @@ def test_get_export_results_wrong(): #not-exist job_id
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_download_results_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	holistics_instance.download_results(job_id_correct, path_correct)
-	
+	response = holistics_instance.download_results(job_id_correct, path_correct)
+	assert isinstance(response, pd.DataFrame), "Result must be DataFrame object"
+
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_download_results_wrong(): #not-exist job_id
 	with pytest.raises((requests.exceptions.HTTPError,pd.errors.ParserError)):
@@ -63,7 +66,8 @@ def test_download_results_wrong(): #not-exist job_id
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_export_data_correct(): #all correct
 	holistics_instance = HolisticsAPI(api_key_correct)
-	holistics_instance.export_data(report_id_correct2,filters=filters)
+	response = holistics_instance.export_data(report_id_correct2,filters=filters)
+	assert isinstance(response, pd.DataFrame), "Result must be DataFrame object"
 
 @my_vcr.use_cassette('tests/vcr_cassettes/holistics.yml')
 def test_export_data_wrong(): #not-exist report_id
