@@ -13,28 +13,28 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMjIwNDQxtjCoBQCDjIYCJgAA
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMjIwNLW0MDCtBQDYKOLFJgAA
         AA==
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [433fd61a5ae432fb-HKG]
+      CF-RAY: [43464c057bcd853e-HKG]
       Cache-Control: ['public, max-age=7200']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:28 GMT']
-      ETag: [W/"9f04b9b8c4cb4e81181ce8d93999245a"]
+      Date: ['Tue, 03 Jul 2018 03:34:32 GMT']
+      ETag: [W/"cea106429a66bf43c3f820c52720388d"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Expires: ['Mon, 02 Jul 2018 10:45:28 GMT']
+      Expires: ['Tue, 03 Jul 2018 05:34:32 GMT']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d0e75b6fb37671d8e737131753b18086f1530521128; expires=Tue,
-          02-Jul-19 08:45:28 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d8792a30caaabc5c5e9fbabfe41150ca21530588872; expires=Wed,
+          03-Jul-19 03:34:32 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [595a5e1f-2675-46f8-aae4-cc6fc244aa89]
-      X-Runtime: ['0.190020']
+      X-Request-Id: [702f37c7-f7d6-4866-8b71-63627afcf71e]
+      X-Runtime: ['0.174921']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -54,22 +54,22 @@ interactions:
         H4sIAAAAAAAAAwtKLc4vLUpOVcjLL1FIyy/NSwEAUBSJABIAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [433fd61dfac8a308-HKG]
+      CF-RAY: [43464c09cb78a356-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:28 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:33 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d3d3e329bb097b5104594dc90e04693a31530521128; expires=Tue,
-          02-Jul-19 08:45:28 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=dd3e439bc8939ad415ff91318d12409471530588873; expires=Wed,
+          03-Jul-19 03:34:33 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [56c22435-304e-4957-b696-bdaa9273d665]
-      X-Runtime: ['0.104818']
+      X-Request-Id: [b5f2aee4-3ee5-438a-8ea6-d3a6587d6483]
+      X-Runtime: ['0.131988']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 - request:
@@ -86,28 +86,26 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAAyWLUQ6CMBAF77LfthDaCvQypCxLSiIW2QWJhLsL+vcmb2YHliALgwdeEIkZbkDb
-        lGYBv0MUmZopSDz/a7PPspgeA8uArJhwmUn9dc1GhzF80jO8WWMaM2Oq0ioMGEldiXrNDW1nI+TF
-        nfQTfFe0HVGgoi2dqWus787l1pqu6nuLudPIKxzHF7JqZkiqAAAA
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSKi5NTk4tLlbSUUqtKMgvKlGyyivNyakFAJuia8EiAAAA
     headers:
-      CF-RAY: [433fd6238a8ba314-HKG]
+      CF-RAY: [43464c0f89c1338b-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:29 GMT']
-      ETag: [W/"823522aaef8f45c02d24ba709c095bdb"]
+      Date: ['Tue, 03 Jul 2018 03:34:34 GMT']
+      ETag: [W/"32d235721e63551c028f4b82627111f6"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d6d3a1248fdee71bfbcd34136194ec4351530521129; expires=Tue,
-          02-Jul-19 08:45:29 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=b00zeVdNWkNaZnNHL3dqYjdIdTdaR2trR2JnQmRIWUdBc2tCTUNoNzFidVJYVy8va2ZuZTRFRDByMk5naWJvU014aTlPc0Y3TmIwZmlyVEg1ZWlrY1JINDFzVkRJeS9tdHBQTmF4NlpiWWZOcFdOcklIc3haWjY2M3dvT0xVdEctLUhxRWM0dEp6VG03QXRVc2JlMVhQY1E9PQ%3D%3D--2ade9ac9a0c8a7b1489207d5514bf7407bbe8b96;
+      Set-Cookie: ['__cfduid=d35334e9297a3af2bdcfba54a804ec5cc1530588874; expires=Wed,
+          03-Jul-19 03:34:34 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=MG92b2MwYnNiemZHL3NYakdvL0RmdS84SmNlcXFPRFovTi91R1Z3NitVdXp0VXYrcUEwNTgxVkl3ckx5aWpYeWR2OXNQVlZ0WDlxY3RkVHB5alZxbEU0WGMveVJkbitBWlVBa1VqTTdyZ3FvNmdBeDgvVjNveHloNUpjNS9PNFktLXRTd255VUowbXRwTStUNklLZ2dXZ1E9PQ%3D%3D--0e166022221c52cd6b8468d66217ed087ae914ba;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [8431bf32-bd48-4deb-afdb-de6e6a4fdaf8]
-      X-Runtime: ['0.101439']
+      X-Request-Id: [3c0a0b69-6964-4da0-9bea-48a4e04271f0]
+      X-Runtime: ['0.101493']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -126,23 +124,23 @@ interactions:
       string: !!binary |
         H4sIAAAAAAAAA6tWSi0qyi8qVrKKVgpKLc4vLUpOVcjLL1FIyy/NS1GKrQUAf+es0yEAAAA=
     headers:
-      CF-RAY: [433fd626da10a308-HKG]
+      CF-RAY: [43464c13191aa308-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:30 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:34 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d20e71e5fdaf7cd39753d04c78d2430651530521130; expires=Tue,
-          02-Jul-19 08:45:30 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=VVE5OFFHalh0ekYyczBnRXFuRUxJMGJwSWpCcWhwQkx2VllZVUZTbUJEQUkrS1dXNWFaM0p3RFYrVjdQdElnTXRodFRLZkFMQWNDMWtvSnBxNm1DNlRvVXB3TnMwbDVwMVpMRDhCR25DTFdlSS9tUWpjSjN2dTN1dVZweHdwbWEtLTJXQXBoMCsyajVGMWpEMmZ3NTNSVUE9PQ%3D%3D--b7465a0959a55d80fda20baa827a95b90f968b03;
+      Set-Cookie: ['__cfduid=dc108eed63f6eeee33e64a649f53c1c391530588874; expires=Wed,
+          03-Jul-19 03:34:34 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=bFJETW15aXJXalZRTVpER3k5TDVTVkFWb0hBQ1ZOaDExekdhK0VvbEx5TUJjUnVILzRpVVRBQ1orc2ZxUlVPT0VEOXN0L05TU1YwK1R3eVRFdnlMYWdEUFlNeHd5TS9GV2FLbXhlc2hwNnV4eHVQWm1CNDErdWpiSXVJSUdMeVgtLU5FTWNpTkZFTS9Sb0NIODg0NmJBWHc9PQ%3D%3D--3ca80917b4e5de59fa4ea52b8d1d7a8423d9b9ca;
           path=/; HttpOnly]
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [26f1f31b-9eca-4821-b4d9-c82d9b761fc0]
-      X-Runtime: ['0.110652']
+      X-Request-Id: [91410817-8cc8-4a6b-8f20-e1ced8233e37]
+      X-Runtime: ['0.121306']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 - request:
@@ -157,24 +155,24 @@ interactions:
     method: GET
     uri: https://secure.holistics.io/exports/download?job_id=19888412
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180702T084530Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=e12328bdadd5978c98029c2c46441d25e6b05ba7acdc4b4f484c07ff8ae69d89">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180703T033435Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=8c8ef6f7e3959160178ddffd419b9f336913173d0b44338610b4d0fc5182489d">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [433fd62a38b18532-HKG]
+      CF-RAY: [43464c15ff5732f5-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:30 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:35 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180702T084530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e12328bdadd5978c98029c2c46441d25e6b05ba7acdc4b4f484c07ff8ae69d89']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180703T033435Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=8c8ef6f7e3959160178ddffd419b9f336913173d0b44338610b4d0fc5182489d']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=ddd178182bbb2a6b820e365a423c03a631530521130; expires=Tue,
-          02-Jul-19 08:45:30 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=K1FsRHBUTTN5NGRBUjFMbWJmSGJkbHVpV29jazZGVitMUkZ1Yld3eVl1TDluMmc4NStSUmFoL3dCdzVzOWVlWTAvaDNORDNhRVhrUTY0M2k4M2ZINzJaRkZHd2dRVTRrUXJic0RoclByRndqeWwwTzZPOFhuS0RkZzhIV3RtZFItLXJaSzZvc1NTdDJHSnpOb2tteXk1V2c9PQ%3D%3D--4b0a799f8d01bd950527bf33ccfdaf1ed7bc8adb;
+      Set-Cookie: ['__cfduid=d5cecc0f4d94c66c43ed1857967cb11311530588875; expires=Wed,
+          03-Jul-19 03:34:35 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=eFZSS01ySFNpNE1jc21EbVRQR3RMK0gxQXFtV2p2aSsvamtzaGV0VjdDQXVSKzF1SmJoV3lWMXZZT2F2UUxlN21BTXlsWmpMdlJCd1c0THhEbldoOUIzOEJXMXV4VzJiSENaV1hIbDljZDRSazdzN2pKMndsdVZIQ2xCeEZhaXYtLUhTWW1yTkNnUXJpUUdadEhpaEZpMmc9PQ%3D%3D--7d098c92c4145d30488b6bd6a5e29168ae13f9bd;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [de9bdfdb-327c-4d57-8966-e499ef8b36c9]
-      X-Runtime: ['0.102616']
+      X-Request-Id: [f2e96299-8f4f-4d83-baba-85c58ffdb135]
+      X-Runtime: ['0.249072']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -186,7 +184,7 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180702T084530Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=e12328bdadd5978c98029c2c46441d25e6b05ba7acdc4b4f484c07ff8ae69d89
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/33874-cache-list-qr_execute%3At5-qr33874%3Ad2bdeeae2b75399c96550443d8ff4c05.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180703T033435Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=8c8ef6f7e3959160178ddffd419b9f336913173d0b44338610b4d0fc5182489d
   response:
     body: {string: "tenant_name,owner_name,report_title,repeat\nHolistics Demo,Demo
         Admin,Buyer Total Purchases,0 4 * * *\nHolistics Demo,Demo Admin,Conversion
@@ -408,16 +406,16 @@ interactions:
       Content-Disposition: [attachment]
       Content-Length: ['16677']
       Content-Type: [text/csv]
-      Date: ['Mon, 02 Jul 2018 08:45:32 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:36 GMT']
       ETag: ['"2697259c6c99142649aaafea3277c9f4"']
-      Last-Modified: ['Mon, 02 Jul 2018 08:39:36 GMT']
+      Last-Modified: ['Tue, 03 Jul 2018 03:34:05 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Wed, 04 Jul 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Thu, 05 Jul 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [8WI9tJhFMDtoS3Z7/F5qOg3tcilm7mR5d1fuJ+fsYn2w7c5dz8WcZRNE1/JENC8QdIlfsDnUs3k=]
-      x-amz-meta-cache_expired_at: ['2018-07-02T08:48:02+00:00']
-      x-amz-meta-cache_saved_at: ['2018-07-02T08:38:02+00:00']
-      x-amz-request-id: [C04F4825784690B1]
+      x-amz-id-2: [k78by5uLgt51YhMIBOBza6RfjsbCGqzGTdJ38XFQHA0OBTuDbqmnyc7xIA7rIXXMTRG2P5LTivc=]
+      x-amz-meta-cache_expired_at: ['2018-07-03T03:42:43+00:00']
+      x-amz-meta-cache_saved_at: ['2018-07-03T03:32:43+00:00']
+      x-amz-request-id: [40EDE42B3F79149E]
     status: {code: 200, message: OK}
 - request:
     body: null
@@ -433,21 +431,21 @@ interactions:
   response:
     body: {string: '{"errors":["Holistics::NotFound"]}'}
     headers:
-      CF-RAY: [433fd6379feda308-HKG]
+      CF-RAY: [43464c1dad75a344-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:32 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:36 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=def63295a8a353bf166fd47ee297269c21530521132; expires=Tue,
-          02-Jul-19 08:45:32 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=bitsL3BzVXIzMXNVcU1EdnhEZmNRU0NmdTRUOStyL1BPOElqZWY1ZGZSK2ZLUC9EdEIvZEVYU3JPb04yTVJQanZoMUtDOFBnOGpkcUFOL0YreWd4VzZCUmsvdUJyLytSZHZkTGRNVkU5WFJFN3VZZ3REZUhUNFdBeW1hNEVUVEUtLUMranEwcjJYYkxTV0VRWUJWU1dFL2c9PQ%3D%3D--f83b3a7e800696b09bc8d9e9a85182c9c9ec80e2;
+      Set-Cookie: ['__cfduid=d3603846757164424392ba5ec73556dbc1530588876; expires=Wed,
+          03-Jul-19 03:34:36 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=SVFYb2pXV3QxZTFSb2xBeVhyR0VWbXBhNXlZbmRYZFV5VGtlMnZUdklFcHRWV1dzQUgvVlYzbDJqcThIMzFkNW5vekpQTVBaa3R6U2U4dkRPaHVCSktrL282eXNPSFkycmVOYllqYlNPNm05M0tvRXdKNWFWMzllV3M1OC9RNUMtLWhZNnNDcjJCVHVFTGRpVHBValZvMUE9PQ%3D%3D--62c3aabfd3e3225a4ebb11dc61146fed4be12a31;
           path=/; HttpOnly]
       Status: [422 Unprocessable Entity]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [68b5248f-0834-426b-a536-61ad243a8995]
-      X-Runtime: ['0.103866']
+      X-Request-Id: [676a2382-dab4-4e09-a4d3-0afdc60ac109]
+      X-Runtime: ['0.100667']
       X-XSS-Protection: [1; mode=block]
     status: {code: 422, message: Unprocessable Entity}
 - request:
@@ -464,28 +462,28 @@ interactions:
   response:
     body:
       string: !!binary |
-        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMjIwNDQxtjSqBQA2hHIxJgAA
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSSi5KTSxJTVHSUcrKT4rPTFGyMjIwNLW0MLCoBQCVVkxwJgAA
         AA==
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [433fd63aca84a308-HKG]
+      CF-RAY: [43464c217ae432f5-HKG]
       Cache-Control: ['public, max-age=7200']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:33 GMT']
-      ETag: [W/"cce54d530742264ddeca28920f311597"]
+      Date: ['Tue, 03 Jul 2018 03:34:37 GMT']
+      ETag: [W/"421747d999486ba275f7ddcb48a55fde"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Expires: ['Mon, 02 Jul 2018 10:45:33 GMT']
+      Expires: ['Tue, 03 Jul 2018 05:34:37 GMT']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=de7aabf57e48aa8128b98dd44879c8cd81530521133; expires=Tue,
-          02-Jul-19 08:45:33 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=dd5b63440b8c19345cd3f5f0b016800c91530588877; expires=Wed,
+          03-Jul-19 03:34:37 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [3c9cc18b-2324-44cf-9a85-9f2362af5b9c]
-      X-Runtime: ['0.160234']
+      X-Request-Id: [9b7e5246-f651-4e73-9930-b2f774f3fa72]
+      X-Runtime: ['0.143786']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -498,30 +496,30 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
     method: GET
-    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=20114392&_page_size=10000000&_page=10000000
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=20159808&_page_size=10000000&_page=10000000
   response:
     body:
       string: !!binary |
         H4sIAAAAAAAAA6tWKi5JLCktVrJSyssvUahMLVGqBQCad74zFAAAAA==
     headers:
-      CF-RAY: [433fd63e2e3d853e-HKG]
+      CF-RAY: [43464c24abae32f5-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:34 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:37 GMT']
       ETag: [W/"1a9d9700c7a4468cc76c1a89ef457491"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d18454c584b036f732d50b82b23a4e93a1530521133; expires=Tue,
-          02-Jul-19 08:45:33 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=V2dDMG5pOWIyUU90T1hobk5YaFg2cktpUmtGMUFXbXVXL0pGbGVlWDFBcmtvSmlSTUs5a2F0bU9KNmxoN0d6T0NjRStNbmZUNk0vU0JBd1Y1RDBxKzJLMXBVZlliT3ArN1ZFN0JJNUNhY2R0VVlCcEdVbUNEYjNEL1pKM1k0YjUtLTd5S0czT0lFYVJibFRZVDNSQllaT3c9PQ%3D%3D--258ae4b0296182423ea872405a4e18c41e34d69f;
+      Set-Cookie: ['__cfduid=dd5b63440b8c19345cd3f5f0b016800c91530588877; expires=Wed,
+          03-Jul-19 03:34:37 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=aFl3MmMyQ2VCVVp5NC81bmZwajFscEYzV3F4ZGNUUkRUQzF2bjJ5YjZLSWNoUE91aHF5eXIwVnMxVUpvZ2Z6U1RrMDZja1c2QzF2NWN5YmRxMml6NlJWZGt4Rm9Rbm13QXgvVXBucjBhak5CM1ByR3o2Yzh0VFBtU21ZOWV0QzktLUdFRzJ6VjF4UzRtNDFubUNueGdnMHc9PQ%3D%3D--0409074a2c1cae02fd2bb0d76171d6971529920f;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [45298e12-f37a-4249-8379-bc5ef1e1130c]
-      X-Runtime: ['0.130222']
+      X-Request-Id: [42b71d65-1bf5-4ccb-b2ee-5b50267ab249]
+      X-Runtime: ['0.101104']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -534,7 +532,43 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
     method: GET
-    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=20114392&_page_size=10000000&_page=10000000
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=20159808&_page_size=10000000&_page=10000000
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA6tWKi5JLCktVrJSyssvUahMLVGqBQCad74zFAAAAA==
+    headers:
+      CF-RAY: [43464c288e45a368-HKG]
+      Cache-Control: ['max-age=0, private, must-revalidate']
+      Connection: [keep-alive]
+      Content-Encoding: [gzip]
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Tue, 03 Jul 2018 03:34:38 GMT']
+      ETag: [W/"1a9d9700c7a4468cc76c1a89ef457491"]
+      Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
+      Server: [cloudflare]
+      Set-Cookie: ['__cfduid=d5574cf93b57be8b0a339ee0be26914d11530588878; expires=Wed,
+          03-Jul-19 03:34:38 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=bnU4UWE5ZkFrWTEzQ3BzUmNWTlNOK2JxZ1dVd0QrMk1nRkNXTDQ1UUpya2xqaWxpNlBRV01XUE9rYnhsRHA4d1NrMXpYczRxNVl3VHV0cEt6aHQxaGlJcjB5SEd4dWRaU25WbkxtUUdwUHRJUkEra1VCOEV4N2tKOEtjazk1UWYtLXZGc0dEZ21Wem1PYVBpWERhRUVqUXc9PQ%3D%3D--f3e542ea4a7b5366e2c19b09a6bfe1dd0cfeb6bc;
+          path=/; HttpOnly]
+      Status: [200 OK]
+      Vary: [Accept-Encoding]
+      X-Content-Type-Options: [nosniff]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Request-Id: [752b499f-0086-4131-8118-be0222737e94]
+      X-Runtime: ['0.110675']
+      X-XSS-Protection: [1; mode=block]
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: [application/json]
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Type: [application/json]
+      User-Agent: [python-requests/2.11.1]
+      X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
+    method: GET
+    uri: https://secure.holistics.io/queries/get_export_results.json?job_id=20159808&_page_size=10000000&_page=10000000
   response:
     body:
       string: !!binary |
@@ -542,24 +576,24 @@ interactions:
         ZwG/QRKZ2ilIOvqX2RdFyreBZUBWTLjMpP67ZqvDGN75Hl6sMY+Fde5slBCLeswtrcct5OVy2C95
         rMqmt1eq0bgYY11hb4zrys41sYsNauQn7PsHy6Kd1aQAAAA=
     headers:
-      CF-RAY: [433fd6413ada32f5-HKG]
+      CF-RAY: [43464c31ea11a35c-HKG]
       Cache-Control: ['max-age=0, private, must-revalidate']
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [application/json; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:34 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:39 GMT']
       ETag: [W/"7cfb816e60c32b05806546a9ccc6fed8"]
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=dce661fecbb88bf26c54d0531a00bbb841530521134; expires=Tue,
-          02-Jul-19 08:45:34 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=TlNzMEprRXM1M0Q2dDVKa0hreGV3Zm1jYzkyMkxFNmU1RWNOUE8rWmZNU3NzOFFFS2FHeHBld2pFcUppeGFrOCtVMVB0aWllOTkzUnZFVXJGWWVUQmhFblpyaHg1MU0wK0RUc0VSRElRNy9TQ0piSkVZaUt4K3UxeXJtczh0a3MtLVZwRWpJdzduaXNiQjlaK2J2RDRVYnc9PQ%3D%3D--d969b798d032814a3a2736b7d9633495070b921b;
+      Set-Cookie: ['__cfduid=df77d91e328d0d2c69b5010a0027cdbf11530588879; expires=Wed,
+          03-Jul-19 03:34:39 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=Ym16bGZwM0wyQkZ5RzVHYTVHeVpsT3E5V0VuNGZwdkFLRTdnQ1l6cXhYOWZPdDg2WFVIVDJOeCtDTlhrRXRkOXZwK0FodURFZWZXcTc2REh5dmFLS3hBelVUOTd4dUtXVFVPeFJKWEs2NjlwajlCL3BNWmFkT2RrRXRBRmNWT1UtLUovWWlmYnFKSzVheXR2aVpFUzhXUVE9PQ%3D%3D--413576b48cdb6ca5c8babeb5887ba56b33183789;
           path=/; HttpOnly]
       Status: [200 OK]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [4c5a586a-8bed-4637-ae6d-54110b234c03]
-      X-Runtime: ['0.116905']
+      X-Request-Id: [7f0a7879-4dd5-4d44-a3af-f1350c8acd47]
+      X-Runtime: ['0.104014']
       X-XSS-Protection: [1; mode=block]
     status: {code: 200, message: OK}
 - request:
@@ -572,26 +606,26 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
     method: GET
-    uri: https://secure.holistics.io/exports/download?job_id=20114392
+    uri: https://secure.holistics.io/exports/download?job_id=20159808
   response:
-    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180702T084536Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=ac4e273881ef7465435e98ab5014333822693c2ba476e7156dd7c3c5576c7575">redirected</a>.</body></html>'}
+    body: {string: '<html><body>You are being <a href="https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20180703T033441Z&amp;X-Amz-Expires=60&amp;X-Amz-SignedHeaders=host&amp;X-Amz-Signature=17ebcc8033570f1fb7c9f54f9f59f1630cc135fea587370fd98518e99de4d4e2">redirected</a>.</body></html>'}
     headers:
-      CF-RAY: [433fd64b38fca31a-HKG]
+      CF-RAY: [43464c3b0f49853e-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Type: [text/html; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:36 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:41 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
-      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180702T084536Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=ac4e273881ef7465435e98ab5014333822693c2ba476e7156dd7c3c5576c7575']
+      Location: ['https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180703T033441Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=17ebcc8033570f1fb7c9f54f9f59f1630cc135fea587370fd98518e99de4d4e2']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d14a99b53a8437e0ec18fc390029c3d7f1530521135; expires=Tue,
-          02-Jul-19 08:45:35 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=dS9UMFpwR3Y0YUFzS0RFczg3MlRBb0NqaVZycitQcnd3ZUVDZDZOa2U2QVNwYkkrSzBOaVJNaUZLdUEveGo5TFUwc1U1WG9PS29oUXZUTy9ZRW8wYWVtOVNESFVlVHJSV01raDA5bkdtc0wybEJGS0JEVDg4K0lIanJ2bklWR1MtLTdNbTFUcTFyUHhERThFQzhhcldwNkE9PQ%3D%3D--f34beeb4e9aada492e91f561609e83bd4641f24f;
+      Set-Cookie: ['__cfduid=d96958a775ef9be32a850ce0ca3a8857f1530588881; expires=Wed,
+          03-Jul-19 03:34:41 GMT; path=/; domain=.holistics.io; HttpOnly', _holistics_session=WHVCVEd2SVdUTjBVZlc1RTdGd1lGcnNqbFZPUEhMMlF5aC9ybi9pTzlZUytRM3E3WllUNzNranN4U1ZnVkxaYVJZNVpzVlhoM3picUtNcnM0QlVmK3BlYXhZcDNxb1ZFdVpCcjVBb0IrTmVHbmkydGJCaWFacTdlNGJLVmk4VGwtLVJoVTZHZm52aEpGaXhxZlIyL1R6aHc9PQ%3D%3D--66bd855b57a1e4bf434c64755cf2700a623438a5;
           path=/; HttpOnly]
       Status: [302 Found]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [6f8d335d-f985-4c71-84c0-a0a01c54f49a]
-      X-Runtime: ['0.271797']
+      X-Request-Id: [96d26db2-79a4-494a-8528-ccb3473ca52a]
+      X-Runtime: ['0.244763']
       X-XSS-Protection: [1; mode=block]
     status: {code: 302, message: Found}
 - request:
@@ -603,7 +637,7 @@ interactions:
       User-Agent: [python-requests/2.11.1]
       X-Holistics-Key: [+msHa4EMLU2xhD17JDF13jM=]
     method: GET
-    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180702%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180702T084536Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=ac4e273881ef7465435e98ab5014333822693c2ba476e7156dd7c3c5576c7575
+    uri: https://holistics-secure-export.s3-ap-southeast-1.amazonaws.com/34412-test-qr_execute%3At5-qr34412%3Ac608f39e7c24ddd76cf224b0b48dbd8c.csv?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJP5DTEBKKMG7ZQKA%2F20180703%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20180703T033441Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&X-Amz-Signature=17ebcc8033570f1fb7c9f54f9f59f1630cc135fea587370fd98518e99de4d4e2
   response:
     body: {string: 'id,schedule_id,creator_id,created_at,updated_at,tenant_id,title,source_id,source_type,durations,options
 
@@ -658,16 +692,16 @@ interactions:
       Content-Disposition: [attachment]
       Content-Length: ['2049']
       Content-Type: [text/csv]
-      Date: ['Mon, 02 Jul 2018 08:45:37 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:42 GMT']
       ETag: ['"1475c6a92fdf03a408f521086bdd9d15"']
-      Last-Modified: ['Mon, 02 Jul 2018 08:44:52 GMT']
+      Last-Modified: ['Tue, 03 Jul 2018 03:34:10 GMT']
       Server: [AmazonS3]
-      x-amz-expiration: ['expiry-date="Wed, 04 Jul 2018 00:00:00 GMT", rule-id="Delete
+      x-amz-expiration: ['expiry-date="Thu, 05 Jul 2018 00:00:00 GMT", rule-id="Delete
           files after 1 day"']
-      x-amz-id-2: [lMJNT+mYwpIRg0XMdAN8Be7jVerma++oIpJCoYCLTzY1wEbiCjLPnCMoM3KeZTx+StMA6xIc100=]
-      x-amz-meta-cache_expired_at: ['2018-07-02T08:54:20+00:00']
-      x-amz-meta-cache_saved_at: ['2018-07-02T08:44:20+00:00']
-      x-amz-request-id: [A6BFF925F4D904B1]
+      x-amz-id-2: [NXsLkXNsiNyJA62e1KXr2Q8CujdK/J9rtnQgTsiwa4ekPs/NwDCm4imFmgvjAMdIfFgUeduhJSI=]
+      x-amz-meta-cache_expired_at: ['2018-07-03T03:43:01+00:00']
+      x-amz-meta-cache_saved_at: ['2018-07-03T03:33:01+00:00']
+      x-amz-request-id: [00CC5E6A0DA6E865]
     status: {code: 200, message: OK}
 - request:
     body: null
@@ -686,22 +720,22 @@ interactions:
         H4sIAAAAAAAAAwtKLc4vLUpOVcjLL1FIyy/NSwEAUBSJABIAAAA=
     headers:
       CF-Cache-Status: [MISS]
-      CF-RAY: [433fd671f947a368-HKG]
+      CF-RAY: [43464c421fa58532-HKG]
       Cache-Control: [no-cache]
       Connection: [keep-alive]
       Content-Encoding: [gzip]
       Content-Type: [text/plain; charset=utf-8]
-      Date: ['Mon, 02 Jul 2018 08:45:42 GMT']
+      Date: ['Tue, 03 Jul 2018 03:34:42 GMT']
       Expect-CT: ['max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"']
       Server: [cloudflare]
-      Set-Cookie: ['__cfduid=d9fd36927ac8adb55b6edbdbb5f9867be1530521142; expires=Tue,
-          02-Jul-19 08:45:42 GMT; path=/; domain=.holistics.io; HttpOnly']
+      Set-Cookie: ['__cfduid=d1b4632876e94a73ecada20c27c9d182a1530588882; expires=Wed,
+          03-Jul-19 03:34:42 GMT; path=/; domain=.holistics.io; HttpOnly']
       Status: [404 Not Found]
       Vary: [Accept-Encoding]
       X-Content-Type-Options: [nosniff]
       X-Frame-Options: [SAMEORIGIN]
-      X-Request-Id: [58aa876f-ea52-46b9-8850-cfc6d4562dbb]
-      X-Runtime: ['0.100394']
+      X-Request-Id: [1292fb08-af8e-40da-9492-c4a605146ca6]
+      X-Runtime: ['0.119205']
       X-XSS-Protection: [1; mode=block]
     status: {code: 404, message: Not Found}
 version: 1
