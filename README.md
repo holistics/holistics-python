@@ -36,7 +36,7 @@ obj = HolisticsAPI(api_key = 'aerg454hoiaKJGlgku', url = 'demo.holistics.io')
 <br>
 
 Finally, call export_data function with specific syntax:
-&emsp; &emsp; **export_data (report_id, path, filter_dict, _page_size, _page)**  
+<br>&emsp; &emsp; **export_data (report_id, path, filter_dict, _page_size, _page)**  
 ```
 my_dataframe = obj.export_data(report_id='123456', path='C:/output.csv', 
                               filter_dict={'date': '2017-04-28', 'vat': 1.1}, 
