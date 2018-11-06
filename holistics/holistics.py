@@ -84,7 +84,7 @@ class HolisticsAPI:
         else:
             try:
                 data.to_csv(path, encoding='utf-8', index=False)
-                print ("Export to file successed!")
+                print ("Export to file successfully!")
                 return data
             except:
                 print ("Can't export file to " + path)    
