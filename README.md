@@ -13,7 +13,8 @@ pip install holistics
 ```
 Alternatively, you can grab the latest source code from GitHub:
 ```python
-git clone git clone git://github.com/holistics/holistics-python.git
+git clone git://github.com/holistics/holistics-python.git
+cd holistics-python
 python setup.py install
 ```
 
